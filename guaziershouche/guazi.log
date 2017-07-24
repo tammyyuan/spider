@@ -1,0 +1,1806 @@
+2017-07-24 12:07:24 [scrapy.utils.log] INFO: Scrapy 1.4.0 started (bot: guaziershouche)
+2017-07-24 12:07:24 [scrapy.utils.log] INFO: Overridden settings: {'BOT_NAME': 'guaziershouche', 'DOWNLOAD_DELAY': 3, 'LOG_FILE': 'guazi.log', 'LOG_LEVEL': 'INFO', 'LOG_STDOUT': True, 'NEWSPIDER_MODULE': 'guaziershouche.spiders', 'REDIRECT_ENABLED': False, 'SPIDER_MODULES': ['guaziershouche.spiders']}
+2017-07-24 12:07:24 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.spiderstate.SpiderState']
+2017-07-24 12:07:24 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-07-24 12:07:24 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-07-24 12:07:24 [scrapy.middleware] INFO: Enabled item pipelines:
+['guaziershouche.pipelines.GuaziershouchePipeline']
+2017-07-24 12:07:24 [scrapy.core.engine] INFO: Spider opened
+2017-07-24 12:07:24 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-07-24 12:08:24 [scrapy.extensions.logstats] INFO: Crawled 17 pages (at 17 pages/min), scraped 0 items (at 0 items/min)
+2017-07-24 12:08:26 [stdout] INFO: <200 https://www.guazi.com/bj/8ae9a48b4ef217d4x.htm>
+2017-07-24 12:08:26 [stdout] INFO: parse_detail
+2017-07-24 12:08:26 [stdout] INFO: 数据插入成功
+2017-07-24 12:08:29 [stdout] INFO: <200 https://www.guazi.com/tj/4bd68e47c120b0cax.htm>
+2017-07-24 12:08:29 [stdout] INFO: parse_detail
+2017-07-24 12:08:29 [stdout] INFO: 数据插入成功
+2017-07-24 12:08:33 [stdout] INFO: <200 https://www.guazi.com/anqing/51618ba2925791aex.htm>
+2017-07-24 12:08:33 [stdout] INFO: parse_detail
+2017-07-24 12:08:33 [stdout] INFO: 数据插入成功
+2017-07-24 12:08:38 [stdout] INFO: <200 https://www.guazi.com/wh/730301fb9db0af5dx.htm>
+2017-07-24 12:08:38 [stdout] INFO: parse_detail
+2017-07-24 12:08:38 [stdout] INFO: 数据插入成功
+2017-07-24 12:08:40 [stdout] INFO: <200 https://www.guazi.com/sy/9031f4754ddcabc9x.htm>
+2017-07-24 12:08:40 [stdout] INFO: parse_detail
+2017-07-24 12:08:40 [stdout] INFO: 数据插入成功
+2017-07-24 12:08:44 [stdout] INFO: <200 https://www.guazi.com/su/d69fb5dbb2d0cfc0x.htm>
+2017-07-24 12:08:44 [stdout] INFO: parse_detail
+2017-07-24 12:08:44 [stdout] INFO: 数据插入成功
+2017-07-24 12:08:47 [stdout] INFO: <200 https://www.guazi.com/hz/132fc5a849b17eacx.htm>
+2017-07-24 12:08:47 [stdout] INFO: parse_detail
+2017-07-24 12:08:47 [stdout] INFO: 数据插入成功
+2017-07-24 12:08:51 [stdout] INFO: <200 https://www.guazi.com/cq/8e287f4951a9aa53x.htm>
+2017-07-24 12:08:51 [stdout] INFO: parse_detail
+2017-07-24 12:08:51 [stdout] INFO: 数据插入成功
+2017-07-24 12:08:54 [stdout] INFO: <200 https://www.guazi.com/cd/47328dc544218dd4x.htm>
+2017-07-24 12:08:54 [stdout] INFO: parse_detail
+2017-07-24 12:08:54 [stdout] INFO: 数据插入成功
+2017-07-24 12:08:58 [stdout] INFO: <200 https://www.guazi.com/sz/8e68dbd2ad77293cx.htm>
+2017-07-24 12:08:58 [stdout] INFO: parse_detail
+2017-07-24 12:08:58 [stdout] INFO: 数据插入成功
+2017-07-24 12:09:03 [stdout] INFO: <200 https://www.guazi.com/gz/2c3aa79fa84b2111x.htm>
+2017-07-24 12:09:03 [stdout] INFO: parse_detail
+2017-07-24 12:09:03 [stdout] INFO: 数据插入成功
+2017-07-24 12:09:05 [stdout] INFO: <200 https://www.guazi.com/sh/ff5536aa2134cb75x.htm>
+2017-07-24 12:09:05 [stdout] INFO: parse_detail
+2017-07-24 12:09:05 [stdout] INFO: 数据插入成功
+2017-07-24 12:09:08 [stdout] INFO: <200 https://www.guazi.com/sh/0470ea7b54e784d9x.htm>
+2017-07-24 12:09:08 [stdout] INFO: parse_detail
+2017-07-24 12:09:08 [stdout] INFO: 数据插入成功
+2017-07-24 12:09:11 [stdout] INFO: <200 https://www.guazi.com/langfang/353ba4b6f4049871x.htm>
+2017-07-24 12:09:11 [stdout] INFO: parse_detail
+2017-07-24 12:09:11 [stdout] INFO: 数据插入成功
+2017-07-24 12:09:13 [stdout] INFO: <200 https://www.guazi.com/hengshui/e34bbe4d5a542519x.htm>
+2017-07-24 12:09:13 [stdout] INFO: parse_detail
+2017-07-24 12:09:13 [stdout] INFO: 数据插入成功
+2017-07-24 12:09:18 [stdout] INFO: <200 https://www.guazi.com/chengde/62999965675ec481x.htm>
+2017-07-24 12:09:18 [stdout] INFO: parse_detail
+2017-07-24 12:09:18 [stdout] INFO: 数据插入成功
+2017-07-24 12:09:22 [stdout] INFO: <200 https://www.guazi.com/xingtai/9492d27b3ff2e29bx.htm>
+2017-07-24 12:09:22 [stdout] INFO: parse_detail
+2017-07-24 12:09:22 [stdout] INFO: 数据插入成功
+2017-07-24 12:09:24 [scrapy.extensions.logstats] INFO: Crawled 34 pages (at 17 pages/min), scraped 17 items (at 17 items/min)
+2017-07-24 12:09:25 [stdout] INFO: <200 https://www.guazi.com/xingtai/e4fe56c7a2682d4fx.htm>
+2017-07-24 12:09:25 [stdout] INFO: parse_detail
+2017-07-24 12:09:25 [stdout] INFO: 数据插入成功
+2017-07-24 12:09:29 [stdout] INFO: <200 https://www.guazi.com/xingtai/f8c7c74555afa866x.htm>
+2017-07-24 12:09:29 [stdout] INFO: parse_detail
+2017-07-24 12:09:29 [stdout] INFO: 数据插入成功
+2017-07-24 12:09:33 [stdout] INFO: <200 https://www.guazi.com/xingtai/045b753273fd87dex.htm>
+2017-07-24 12:09:33 [stdout] INFO: parse_detail
+2017-07-24 12:09:33 [stdout] INFO: 数据插入成功
+2017-07-24 12:09:36 [stdout] INFO: <200 https://www.guazi.com/xingtai/77b60f14f64b3d61x.htm>
+2017-07-24 12:09:36 [stdout] INFO: parse_detail
+2017-07-24 12:09:36 [stdout] INFO: 数据插入成功
+2017-07-24 12:09:40 [stdout] INFO: <200 https://www.guazi.com/xingtai/3fdd505176341414x.htm>
+2017-07-24 12:09:40 [stdout] INFO: parse_detail
+2017-07-24 12:09:40 [stdout] INFO: 数据插入成功
+2017-07-24 12:09:44 [stdout] INFO: <200 https://www.guazi.com/xingtai/630711b99ab1186fx.htm>
+2017-07-24 12:09:44 [stdout] INFO: parse_detail
+2017-07-24 12:09:44 [stdout] INFO: 数据插入成功
+2017-07-24 12:09:46 [stdout] INFO: <200 https://www.guazi.com/xingtai/998d60bf91ad4615x.htm>
+2017-07-24 12:09:46 [stdout] INFO: parse_detail
+2017-07-24 12:09:46 [stdout] INFO: 数据插入成功
+2017-07-24 12:09:50 [stdout] INFO: <200 https://www.guazi.com/xingtai/0a9dedd33f680845x.htm>
+2017-07-24 12:09:50 [stdout] INFO: parse_detail
+2017-07-24 12:09:50 [stdout] INFO: 数据插入成功
+2017-07-24 12:09:54 [stdout] INFO: <200 https://www.guazi.com/xingtai/38d29266b95cb594x.htm>
+2017-07-24 12:09:54 [stdout] INFO: parse_detail
+2017-07-24 12:09:54 [stdout] INFO: 数据插入成功
+2017-07-24 12:09:59 [stdout] INFO: <200 https://www.guazi.com/xingtai/e7e5f93ab28c716bx.htm>
+2017-07-24 12:09:59 [stdout] INFO: parse_detail
+2017-07-24 12:09:59 [stdout] INFO: 数据插入成功
+2017-07-24 12:10:02 [stdout] INFO: <200 https://www.guazi.com/xingtai/cc0d2b901b359810x.htm>
+2017-07-24 12:10:02 [stdout] INFO: parse_detail
+2017-07-24 12:10:02 [stdout] INFO: 数据插入成功
+2017-07-24 12:10:06 [stdout] INFO: <200 https://www.guazi.com/xingtai/147dee59c87c70bdx.htm>
+2017-07-24 12:10:06 [stdout] INFO: parse_detail
+2017-07-24 12:10:06 [stdout] INFO: 数据插入成功
+2017-07-24 12:10:10 [stdout] INFO: <200 https://www.guazi.com/xingtai/e41183b27f6e3f59x.htm>
+2017-07-24 12:10:10 [stdout] INFO: parse_detail
+2017-07-24 12:10:10 [stdout] INFO: 数据插入成功
+2017-07-24 12:10:13 [stdout] INFO: <200 https://www.guazi.com/xingtai/26d897cd1b054fffx.htm>
+2017-07-24 12:10:13 [stdout] INFO: parse_detail
+2017-07-24 12:10:13 [stdout] INFO: 数据插入成功
+2017-07-24 12:10:17 [stdout] INFO: <200 https://www.guazi.com/xingtai/842c9d176853f4a5x.htm>
+2017-07-24 12:10:17 [stdout] INFO: parse_detail
+2017-07-24 12:10:17 [stdout] INFO: 数据插入成功
+2017-07-24 12:10:20 [stdout] INFO: <200 https://www.guazi.com/xingtai/39fb132a87bae75dx.htm>
+2017-07-24 12:10:20 [stdout] INFO: parse_detail
+2017-07-24 12:10:20 [stdout] INFO: 数据插入成功
+2017-07-24 12:10:24 [scrapy.extensions.logstats] INFO: Crawled 50 pages (at 16 pages/min), scraped 33 items (at 16 items/min)
+2017-07-24 12:10:25 [stdout] INFO: <200 https://www.guazi.com/xingtai/17d8585d07d2114fx.htm>
+2017-07-24 12:10:25 [stdout] INFO: parse_detail
+2017-07-24 12:10:25 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.guazi.com/xingtai/17d8585d07d2114fx.htm> (referer: https://www.guazi.com/xingtai/buy/i7/)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python3.6/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python3.6/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python3.6/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python3.6/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python3.6/site-packages/scrapy/spiders/crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "/Users/MaYingXin/guaziershouche/guaziershouche/spiders/guazi.py", line 32, in parse_detail
+    item['title'] = response.xpath('/html/body/div[4]/div[3]/div[2]/div[1]/p/text()').extract()[0]
+IndexError: list index out of range
+2017-07-24 12:10:28 [stdout] INFO: <200 https://www.guazi.com/xingtai/b0ea3c24b1608ffex.htm>
+2017-07-24 12:10:28 [stdout] INFO: parse_detail
+2017-07-24 12:10:28 [stdout] INFO: 数据插入成功
+2017-07-24 12:10:31 [stdout] INFO: <200 https://www.guazi.com/xingtai/d41d5e47ecc6f5adx.htm>
+2017-07-24 12:10:31 [stdout] INFO: parse_detail
+2017-07-24 12:10:31 [stdout] INFO: 数据插入成功
+2017-07-24 12:10:33 [stdout] INFO: <200 https://www.guazi.com/xingtai/91ddc213353a6aadx.htm>
+2017-07-24 12:10:33 [stdout] INFO: parse_detail
+2017-07-24 12:10:33 [stdout] INFO: 数据插入成功
+2017-07-24 12:10:36 [stdout] INFO: <200 https://www.guazi.com/xingtai/07e48679df2a40aex.htm>
+2017-07-24 12:10:36 [stdout] INFO: parse_detail
+2017-07-24 12:10:37 [stdout] INFO: 数据插入成功
+2017-07-24 12:10:41 [stdout] INFO: <200 https://www.guazi.com/xingtai/ea8f5f4902aab1f4x.htm>
+2017-07-24 12:10:41 [stdout] INFO: parse_detail
+2017-07-24 12:10:41 [stdout] INFO: 数据插入成功
+2017-07-24 12:10:45 [stdout] INFO: <200 https://www.guazi.com/xingtai/b86ebb7a4f7cb9c6x.htm>
+2017-07-24 12:10:45 [stdout] INFO: parse_detail
+2017-07-24 12:10:45 [stdout] INFO: 数据插入成功
+2017-07-24 12:10:49 [stdout] INFO: <200 https://www.guazi.com/xingtai/9df53449b25aaf02x.htm>
+2017-07-24 12:10:49 [stdout] INFO: parse_detail
+2017-07-24 12:10:49 [stdout] INFO: 数据插入成功
+2017-07-24 12:10:53 [stdout] INFO: <200 https://www.guazi.com/xingtai/8360239023ab8124x.htm>
+2017-07-24 12:10:53 [stdout] INFO: parse_detail
+2017-07-24 12:10:53 [stdout] INFO: 数据插入成功
+2017-07-24 12:10:56 [stdout] INFO: <200 https://www.guazi.com/xingtai/eb5900b1f80e3dd3x.htm>
+2017-07-24 12:10:56 [stdout] INFO: parse_detail
+2017-07-24 12:10:56 [stdout] INFO: 数据插入成功
+2017-07-24 12:10:58 [stdout] INFO: <200 https://www.guazi.com/xingtai/1cd93efc9b82758fx.htm>
+2017-07-24 12:10:58 [stdout] INFO: parse_detail
+2017-07-24 12:10:58 [stdout] INFO: 数据插入成功
+2017-07-24 12:11:01 [stdout] INFO: <200 https://www.guazi.com/xingtai/d8bb3894888d3d31x.htm>
+2017-07-24 12:11:01 [stdout] INFO: parse_detail
+2017-07-24 12:11:01 [stdout] INFO: 数据插入成功
+2017-07-24 12:11:06 [stdout] INFO: <200 https://www.guazi.com/xingtai/a508124ed5dfeacex.htm>
+2017-07-24 12:11:06 [stdout] INFO: parse_detail
+2017-07-24 12:11:06 [stdout] INFO: 数据插入成功
+2017-07-24 12:11:09 [stdout] INFO: <200 https://www.guazi.com/xingtai/bda852fe309c947cx.htm>
+2017-07-24 12:11:09 [stdout] INFO: parse_detail
+2017-07-24 12:11:09 [stdout] INFO: 数据插入成功
+2017-07-24 12:11:14 [stdout] INFO: <200 https://www.guazi.com/xingtai/3bdfc4d29a930e91x.htm>
+2017-07-24 12:11:14 [stdout] INFO: parse_detail
+2017-07-24 12:11:14 [stdout] INFO: 数据插入成功
+2017-07-24 12:11:17 [stdout] INFO: <200 https://www.guazi.com/xingtai/4e7a7cb10b79faedx.htm>
+2017-07-24 12:11:17 [stdout] INFO: parse_detail
+2017-07-24 12:11:17 [stdout] INFO: 数据插入成功
+2017-07-24 12:11:21 [stdout] INFO: <200 https://www.guazi.com/xingtai/1dec5ce62ff591cbx.htm>
+2017-07-24 12:11:21 [stdout] INFO: parse_detail
+2017-07-24 12:11:21 [stdout] INFO: 数据插入成功
+2017-07-24 12:11:24 [scrapy.extensions.logstats] INFO: Crawled 67 pages (at 17 pages/min), scraped 49 items (at 16 items/min)
+2017-07-24 12:11:25 [stdout] INFO: <200 https://www.guazi.com/xingtai/22a3bc760cfe8067x.htm>
+2017-07-24 12:11:25 [stdout] INFO: parse_detail
+2017-07-24 12:11:25 [stdout] INFO: 数据插入成功
+2017-07-24 12:11:28 [stdout] INFO: <200 https://www.guazi.com/xingtai/6f8bc4af0042e1dcx.htm>
+2017-07-24 12:11:28 [stdout] INFO: parse_detail
+2017-07-24 12:11:28 [stdout] INFO: 数据插入成功
+2017-07-24 12:11:32 [stdout] INFO: <200 https://www.guazi.com/xingtai/00e3f0f4efdf89c6x.htm>
+2017-07-24 12:11:32 [stdout] INFO: parse_detail
+2017-07-24 12:11:32 [stdout] INFO: 数据插入成功
+2017-07-24 12:11:36 [stdout] INFO: <200 https://www.guazi.com/xingtai/d2e6078b8411f1e9x.htm>
+2017-07-24 12:11:36 [stdout] INFO: parse_detail
+2017-07-24 12:11:36 [stdout] INFO: 数据插入成功
+2017-07-24 12:11:41 [stdout] INFO: <200 https://www.guazi.com/xingtai/cfd613ce6941b6cax.htm>
+2017-07-24 12:11:41 [stdout] INFO: parse_detail
+2017-07-24 12:11:41 [stdout] INFO: 数据插入成功
+2017-07-24 12:11:44 [stdout] INFO: <200 https://www.guazi.com/xingtai/8362c163f16d1989x.htm>
+2017-07-24 12:11:44 [stdout] INFO: parse_detail
+2017-07-24 12:11:44 [stdout] INFO: 数据插入成功
+2017-07-24 12:12:13 [stdout] INFO: <200 https://www.guazi.com/chengde/918362e8b95b0d27x.htm>
+2017-07-24 12:12:13 [stdout] INFO: parse_detail
+2017-07-24 12:12:13 [stdout] INFO: 数据插入成功
+2017-07-24 12:12:18 [stdout] INFO: <200 https://www.guazi.com/chengde/e5ffaaf9cec63b08x.htm>
+2017-07-24 12:12:18 [stdout] INFO: parse_detail
+2017-07-24 12:12:18 [stdout] INFO: 数据插入成功
+2017-07-24 12:12:21 [stdout] INFO: <200 https://www.guazi.com/chengde/585f4ca69574ba34x.htm>
+2017-07-24 12:12:21 [stdout] INFO: parse_detail
+2017-07-24 12:12:21 [stdout] INFO: 数据插入成功
+2017-07-24 12:12:24 [scrapy.extensions.logstats] INFO: Crawled 83 pages (at 16 pages/min), scraped 58 items (at 9 items/min)
+2017-07-24 12:12:25 [stdout] INFO: <200 https://www.guazi.com/chengde/1ef7dcbd1d4a2cfex.htm>
+2017-07-24 12:12:25 [stdout] INFO: parse_detail
+2017-07-24 12:12:25 [stdout] INFO: 数据插入成功
+2017-07-24 12:12:29 [stdout] INFO: <200 https://www.guazi.com/chengde/1ab6aca2cb0187dcx.htm>
+2017-07-24 12:12:29 [stdout] INFO: parse_detail
+2017-07-24 12:12:29 [stdout] INFO: 数据插入成功
+2017-07-24 12:12:33 [stdout] INFO: <200 https://www.guazi.com/chengde/35c57be1d2778d43x.htm>
+2017-07-24 12:12:33 [stdout] INFO: parse_detail
+2017-07-24 12:12:33 [stdout] INFO: 数据插入成功
+2017-07-24 12:12:36 [stdout] INFO: <200 https://www.guazi.com/chengde/255a5b97d8c3f2cdx.htm>
+2017-07-24 12:12:36 [stdout] INFO: parse_detail
+2017-07-24 12:12:36 [stdout] INFO: 数据插入成功
+2017-07-24 12:12:41 [stdout] INFO: <200 https://www.guazi.com/chengde/5ca9bc5f5ff2a80ax.htm>
+2017-07-24 12:12:41 [stdout] INFO: parse_detail
+2017-07-24 12:12:41 [stdout] INFO: 数据插入成功
+2017-07-24 12:12:45 [stdout] INFO: <200 https://www.guazi.com/chengde/06a93dcca5ccd586x.htm>
+2017-07-24 12:12:45 [stdout] INFO: parse_detail
+2017-07-24 12:12:45 [stdout] INFO: 数据插入成功
+2017-07-24 12:12:49 [stdout] INFO: <200 https://www.guazi.com/chengde/41a78f4fa747af9ax.htm>
+2017-07-24 12:12:49 [stdout] INFO: parse_detail
+2017-07-24 12:12:49 [stdout] INFO: 数据插入成功
+2017-07-24 12:12:53 [stdout] INFO: <200 https://www.guazi.com/baoding/96503ddae9c4671ax.htm>
+2017-07-24 12:12:53 [stdout] INFO: parse_detail
+2017-07-24 12:12:53 [stdout] INFO: 数据插入成功
+2017-07-24 12:12:57 [stdout] INFO: <200 https://www.guazi.com/xingtai/e2e72a7cba1b8a19x.htm>
+2017-07-24 12:12:57 [stdout] INFO: parse_detail
+2017-07-24 12:12:57 [stdout] INFO: 数据插入成功
+2017-07-24 12:13:01 [stdout] INFO: <200 https://www.guazi.com/xingtai/8a25db6eb4e6d2c5x.htm>
+2017-07-24 12:13:01 [stdout] INFO: parse_detail
+2017-07-24 12:13:01 [stdout] INFO: 数据插入成功
+2017-07-24 12:13:05 [stdout] INFO: <200 https://www.guazi.com/xingtai/498ec9288b8cb591x.htm>
+2017-07-24 12:13:05 [stdout] INFO: parse_detail
+2017-07-24 12:13:05 [stdout] INFO: 数据插入成功
+2017-07-24 12:13:07 [stdout] INFO: <200 https://www.guazi.com/xingtai/716d7527a3580eeax.htm>
+2017-07-24 12:13:07 [stdout] INFO: parse_detail
+2017-07-24 12:13:07 [stdout] INFO: 数据插入成功
+2017-07-24 12:13:11 [stdout] INFO: <200 https://www.guazi.com/xingtai/701691b2de5a54fbx.htm>
+2017-07-24 12:13:11 [stdout] INFO: parse_detail
+2017-07-24 12:13:11 [stdout] INFO: 数据插入成功
+2017-07-24 12:13:14 [stdout] INFO: <200 https://www.guazi.com/xingtai/eb1e5cd21b399d3dx.htm>
+2017-07-24 12:13:14 [stdout] INFO: parse_detail
+2017-07-24 12:13:14 [stdout] INFO: 数据插入成功
+2017-07-24 12:13:19 [stdout] INFO: <200 https://www.guazi.com/xingtai/8f96ad620ac4313ax.htm>
+2017-07-24 12:13:19 [stdout] INFO: parse_detail
+2017-07-24 12:13:19 [stdout] INFO: 数据插入成功
+2017-07-24 12:13:23 [stdout] INFO: <200 https://www.guazi.com/xingtai/d2d6150da2a15b04x.htm>
+2017-07-24 12:13:23 [stdout] INFO: parse_detail
+2017-07-24 12:13:23 [stdout] INFO: 数据插入成功
+2017-07-24 12:13:24 [scrapy.extensions.logstats] INFO: Crawled 99 pages (at 16 pages/min), scraped 74 items (at 16 items/min)
+2017-07-24 12:13:26 [stdout] INFO: <200 https://www.guazi.com/xingtai/3ae32a789325b8aax.htm>
+2017-07-24 12:13:26 [stdout] INFO: parse_detail
+2017-07-24 12:13:27 [stdout] INFO: 数据插入成功
+2017-07-24 12:13:31 [stdout] INFO: <200 https://www.guazi.com/xingtai/577621feb1a0cef5x.htm>
+2017-07-24 12:13:31 [stdout] INFO: parse_detail
+2017-07-24 12:13:31 [stdout] INFO: 数据插入成功
+2017-07-24 12:13:34 [stdout] INFO: <200 https://www.guazi.com/xingtai/de3f46b0f16b89b5x.htm>
+2017-07-24 12:13:34 [stdout] INFO: parse_detail
+2017-07-24 12:13:34 [stdout] INFO: 数据插入成功
+2017-07-24 12:13:39 [stdout] INFO: <200 https://www.guazi.com/xingtai/8e4ea4690e58de27x.htm>
+2017-07-24 12:13:39 [stdout] INFO: parse_detail
+2017-07-24 12:13:39 [stdout] INFO: 数据插入成功
+2017-07-24 12:13:43 [stdout] INFO: <200 https://www.guazi.com/xingtai/58a1bf3dfe62af50x.htm>
+2017-07-24 12:13:43 [stdout] INFO: parse_detail
+2017-07-24 12:13:43 [stdout] INFO: 数据插入成功
+2017-07-24 12:13:47 [stdout] INFO: <200 https://www.guazi.com/xingtai/dab26a32b4f2965ex.htm>
+2017-07-24 12:13:47 [stdout] INFO: parse_detail
+2017-07-24 12:13:47 [stdout] INFO: 数据插入成功
+2017-07-24 12:13:51 [stdout] INFO: <200 https://www.guazi.com/xingtai/30cb4b4f2353376ex.htm>
+2017-07-24 12:13:51 [stdout] INFO: parse_detail
+2017-07-24 12:13:51 [stdout] INFO: 数据插入成功
+2017-07-24 12:13:54 [stdout] INFO: <200 https://www.guazi.com/xingtai/4cba8ea739c75e64x.htm>
+2017-07-24 12:13:54 [stdout] INFO: parse_detail
+2017-07-24 12:13:54 [stdout] INFO: 数据插入成功
+2017-07-24 12:13:56 [stdout] INFO: <200 https://www.guazi.com/xingtai/9b982101a0b19412x.htm>
+2017-07-24 12:13:56 [stdout] INFO: parse_detail
+2017-07-24 12:13:56 [stdout] INFO: 数据插入成功
+2017-07-24 12:14:00 [stdout] INFO: <200 https://www.guazi.com/xingtai/4adbcf02e86bb7d8x.htm>
+2017-07-24 12:14:00 [stdout] INFO: parse_detail
+2017-07-24 12:14:00 [stdout] INFO: 数据插入成功
+2017-07-24 12:14:03 [stdout] INFO: <200 https://www.guazi.com/xingtai/64a3cdf52308c958x.htm>
+2017-07-24 12:14:03 [stdout] INFO: parse_detail
+2017-07-24 12:14:03 [stdout] INFO: 数据插入成功
+2017-07-24 12:14:07 [stdout] INFO: <200 https://www.guazi.com/xingtai/aeb82e7de34548b5x.htm>
+2017-07-24 12:14:07 [stdout] INFO: parse_detail
+2017-07-24 12:14:07 [stdout] INFO: 数据插入成功
+2017-07-24 12:14:09 [stdout] INFO: <200 https://www.guazi.com/xingtai/024669b8ab19107ex.htm>
+2017-07-24 12:14:09 [stdout] INFO: parse_detail
+2017-07-24 12:14:09 [stdout] INFO: 数据插入成功
+2017-07-24 12:14:13 [stdout] INFO: <200 https://www.guazi.com/xingtai/6c98c89e1cc461c2x.htm>
+2017-07-24 12:14:13 [stdout] INFO: parse_detail
+2017-07-24 12:14:13 [stdout] INFO: 数据插入成功
+2017-07-24 12:14:16 [stdout] INFO: <200 https://www.guazi.com/xingtai/2a7d2e11cbccef99x.htm>
+2017-07-24 12:14:16 [stdout] INFO: parse_detail
+2017-07-24 12:14:16 [stdout] INFO: 数据插入成功
+2017-07-24 12:14:20 [stdout] INFO: <200 https://www.guazi.com/xingtai/ad73f51a48ed484ex.htm>
+2017-07-24 12:14:20 [stdout] INFO: parse_detail
+2017-07-24 12:14:20 [stdout] INFO: 数据插入成功
+2017-07-24 12:14:24 [scrapy.extensions.logstats] INFO: Crawled 115 pages (at 16 pages/min), scraped 90 items (at 16 items/min)
+2017-07-24 12:14:24 [stdout] INFO: <200 https://www.guazi.com/xingtai/bb0ad6bc2e4818ccx.htm>
+2017-07-24 12:14:24 [stdout] INFO: parse_detail
+2017-07-24 12:14:24 [stdout] INFO: 数据插入成功
+2017-07-24 12:14:27 [stdout] INFO: <200 https://www.guazi.com/xingtai/dd13936be0f87948x.htm>
+2017-07-24 12:14:27 [stdout] INFO: parse_detail
+2017-07-24 12:14:27 [stdout] INFO: 数据插入成功
+2017-07-24 12:14:29 [stdout] INFO: <200 https://www.guazi.com/xingtai/6b56bc435707277bx.htm>
+2017-07-24 12:14:29 [stdout] INFO: parse_detail
+2017-07-24 12:14:29 [stdout] INFO: 数据插入成功
+2017-07-24 12:14:32 [stdout] INFO: <200 https://www.guazi.com/xingtai/31b09f501a110df6x.htm>
+2017-07-24 12:14:32 [stdout] INFO: parse_detail
+2017-07-24 12:14:32 [stdout] INFO: 数据插入成功
+2017-07-24 12:14:35 [stdout] INFO: <200 https://www.guazi.com/xingtai/5d0c8c3105490690x.htm>
+2017-07-24 12:14:35 [stdout] INFO: parse_detail
+2017-07-24 12:14:35 [stdout] INFO: 数据插入成功
+2017-07-24 12:14:38 [stdout] INFO: <200 https://www.guazi.com/xingtai/dcb554459c4ced86x.htm>
+2017-07-24 12:14:38 [stdout] INFO: parse_detail
+2017-07-24 12:14:38 [stdout] INFO: 数据插入成功
+2017-07-24 12:14:43 [stdout] INFO: <200 https://www.guazi.com/xingtai/3ffd9e19d23a32a0x.htm>
+2017-07-24 12:14:43 [stdout] INFO: parse_detail
+2017-07-24 12:14:43 [stdout] INFO: 数据插入成功
+2017-07-24 12:14:46 [stdout] INFO: <200 https://www.guazi.com/xingtai/c4e4373a93d7cd21x.htm>
+2017-07-24 12:14:46 [stdout] INFO: parse_detail
+2017-07-24 12:14:46 [stdout] INFO: 数据插入成功
+2017-07-24 12:14:50 [stdout] INFO: <200 https://www.guazi.com/xingtai/fb46ee71f27c0154x.htm>
+2017-07-24 12:14:50 [stdout] INFO: parse_detail
+2017-07-24 12:14:50 [stdout] INFO: 数据插入成功
+2017-07-24 12:14:53 [stdout] INFO: <200 https://www.guazi.com/xingtai/8f7a6e113af0bb49x.htm>
+2017-07-24 12:14:53 [stdout] INFO: parse_detail
+2017-07-24 12:14:53 [stdout] INFO: 数据插入成功
+2017-07-24 12:14:57 [stdout] INFO: <200 https://www.guazi.com/xingtai/b0b3452f3046b4d3x.htm>
+2017-07-24 12:14:57 [stdout] INFO: parse_detail
+2017-07-24 12:14:57 [stdout] INFO: 数据插入成功
+2017-07-24 12:15:02 [stdout] INFO: <200 https://www.guazi.com/xingtai/867d0ada9157d0a0x.htm>
+2017-07-24 12:15:02 [stdout] INFO: parse_detail
+2017-07-24 12:15:02 [stdout] INFO: 数据插入成功
+2017-07-24 12:15:04 [stdout] INFO: <200 https://www.guazi.com/xingtai/c41f0e3f2086417cx.htm>
+2017-07-24 12:15:04 [stdout] INFO: parse_detail
+2017-07-24 12:15:04 [stdout] INFO: 数据插入成功
+2017-07-24 12:15:08 [stdout] INFO: <200 https://www.guazi.com/xingtai/6e0f36af6e49b5acx.htm>
+2017-07-24 12:15:08 [stdout] INFO: parse_detail
+2017-07-24 12:15:08 [stdout] INFO: 数据插入成功
+2017-07-24 12:15:12 [stdout] INFO: <200 https://www.guazi.com/xingtai/70322fe0946f5716x.htm>
+2017-07-24 12:15:12 [stdout] INFO: parse_detail
+2017-07-24 12:15:12 [stdout] INFO: 数据插入成功
+2017-07-24 12:15:15 [stdout] INFO: <200 https://www.guazi.com/xingtai/7ace64c8200f8864x.htm>
+2017-07-24 12:15:15 [stdout] INFO: parse_detail
+2017-07-24 12:15:15 [stdout] INFO: 数据插入成功
+2017-07-24 12:15:20 [stdout] INFO: <200 https://www.guazi.com/xingtai/83f6c5aa0a3d1a4dx.htm>
+2017-07-24 12:15:20 [stdout] INFO: parse_detail
+2017-07-24 12:15:20 [stdout] INFO: 数据插入成功
+2017-07-24 12:15:24 [stdout] INFO: <200 https://www.guazi.com/xingtai/9aa933d4c4552fa3x.htm>
+2017-07-24 12:15:24 [stdout] INFO: parse_detail
+2017-07-24 12:15:24 [stdout] INFO: 数据插入成功
+2017-07-24 12:15:24 [scrapy.extensions.logstats] INFO: Crawled 133 pages (at 18 pages/min), scraped 108 items (at 18 items/min)
+2017-07-24 12:15:27 [stdout] INFO: <200 https://www.guazi.com/xingtai/d4215117502e90adx.htm>
+2017-07-24 12:15:27 [stdout] INFO: parse_detail
+2017-07-24 12:15:27 [stdout] INFO: 数据插入成功
+2017-07-24 12:15:30 [stdout] INFO: <200 https://www.guazi.com/xingtai/ab3459169eb6de1dx.htm>
+2017-07-24 12:15:30 [stdout] INFO: parse_detail
+2017-07-24 12:15:31 [stdout] INFO: 数据插入成功
+2017-07-24 12:15:35 [stdout] INFO: <200 https://www.guazi.com/xingtai/de78ad07e4467f28x.htm>
+2017-07-24 12:15:35 [stdout] INFO: parse_detail
+2017-07-24 12:15:35 [stdout] INFO: 数据插入成功
+2017-07-24 12:15:39 [stdout] INFO: <200 https://www.guazi.com/xingtai/00c26416973f0825x.htm>
+2017-07-24 12:15:39 [stdout] INFO: parse_detail
+2017-07-24 12:15:39 [stdout] INFO: 数据插入成功
+2017-07-24 12:15:42 [stdout] INFO: <200 https://www.guazi.com/xingtai/3cc7d6f0834a4097x.htm>
+2017-07-24 12:15:42 [stdout] INFO: parse_detail
+2017-07-24 12:15:42 [stdout] INFO: 数据插入成功
+2017-07-24 12:15:46 [stdout] INFO: <200 https://www.guazi.com/xingtai/6e09665e25015537x.htm>
+2017-07-24 12:15:46 [stdout] INFO: parse_detail
+2017-07-24 12:15:46 [stdout] INFO: 数据插入成功
+2017-07-24 12:15:49 [stdout] INFO: <200 https://www.guazi.com/xingtai/f57e0bd9ab707320x.htm>
+2017-07-24 12:15:49 [stdout] INFO: parse_detail
+2017-07-24 12:15:49 [stdout] INFO: 数据插入成功
+2017-07-24 12:15:52 [stdout] INFO: <200 https://www.guazi.com/xingtai/7eb0df5d80edd06fx.htm>
+2017-07-24 12:15:52 [stdout] INFO: parse_detail
+2017-07-24 12:15:53 [stdout] INFO: 数据插入成功
+2017-07-24 12:15:56 [stdout] INFO: <200 https://www.guazi.com/xingtai/8f407d473bfb7975x.htm>
+2017-07-24 12:15:56 [stdout] INFO: parse_detail
+2017-07-24 12:15:56 [stdout] INFO: 数据插入成功
+2017-07-24 12:16:00 [stdout] INFO: <200 https://www.guazi.com/xingtai/f45290f5541da93ex.htm>
+2017-07-24 12:16:00 [stdout] INFO: parse_detail
+2017-07-24 12:16:00 [stdout] INFO: 数据插入成功
+2017-07-24 12:16:03 [stdout] INFO: <200 https://www.guazi.com/xingtai/8a74fbb2356a934ex.htm>
+2017-07-24 12:16:03 [stdout] INFO: parse_detail
+2017-07-24 12:16:03 [stdout] INFO: 数据插入成功
+2017-07-24 12:16:06 [stdout] INFO: <200 https://www.guazi.com/xingtai/e323de41c3c4cfa3x.htm>
+2017-07-24 12:16:06 [stdout] INFO: parse_detail
+2017-07-24 12:16:06 [stdout] INFO: 数据插入成功
+2017-07-24 12:16:10 [stdout] INFO: <200 https://www.guazi.com/xingtai/cc4cd3a11a523e36x.htm>
+2017-07-24 12:16:10 [stdout] INFO: parse_detail
+2017-07-24 12:16:10 [stdout] INFO: 数据插入成功
+2017-07-24 12:16:14 [stdout] INFO: <200 https://www.guazi.com/xingtai/73b7a8a1ef3dae1ax.htm>
+2017-07-24 12:16:14 [stdout] INFO: parse_detail
+2017-07-24 12:16:14 [stdout] INFO: 数据插入成功
+2017-07-24 12:16:17 [stdout] INFO: <200 https://www.guazi.com/xingtai/e0f1a19b9883b950x.htm>
+2017-07-24 12:16:17 [stdout] INFO: parse_detail
+2017-07-24 12:16:17 [stdout] INFO: 数据插入成功
+2017-07-24 12:16:21 [stdout] INFO: <200 https://www.guazi.com/xingtai/d7967597b78d180fx.htm>
+2017-07-24 12:16:21 [stdout] INFO: parse_detail
+2017-07-24 12:16:21 [stdout] INFO: 数据插入成功
+2017-07-24 12:16:24 [scrapy.extensions.logstats] INFO: Crawled 149 pages (at 16 pages/min), scraped 124 items (at 16 items/min)
+2017-07-24 12:16:25 [stdout] INFO: <200 https://www.guazi.com/xingtai/712afcad9116b20ax.htm>
+2017-07-24 12:16:25 [stdout] INFO: parse_detail
+2017-07-24 12:16:26 [stdout] INFO: 数据插入成功
+2017-07-24 12:16:29 [stdout] INFO: <200 https://www.guazi.com/xingtai/9d8aeee0141aed67x.htm>
+2017-07-24 12:16:29 [stdout] INFO: parse_detail
+2017-07-24 12:16:29 [stdout] INFO: 数据插入成功
+2017-07-24 12:16:32 [stdout] INFO: <200 https://www.guazi.com/xingtai/a15a78330112b142x.htm>
+2017-07-24 12:16:32 [stdout] INFO: parse_detail
+2017-07-24 12:16:32 [stdout] INFO: 数据插入成功
+2017-07-24 12:16:35 [stdout] INFO: <200 https://www.guazi.com/xingtai/a0e292b42defd25dx.htm>
+2017-07-24 12:16:35 [stdout] INFO: parse_detail
+2017-07-24 12:16:35 [stdout] INFO: 数据插入成功
+2017-07-24 12:16:39 [stdout] INFO: <200 https://www.guazi.com/xingtai/22e75f19b474948ax.htm>
+2017-07-24 12:16:39 [stdout] INFO: parse_detail
+2017-07-24 12:16:39 [stdout] INFO: 数据插入成功
+2017-07-24 12:16:41 [stdout] INFO: <200 https://www.guazi.com/xingtai/f0798fff0b26e7f6x.htm>
+2017-07-24 12:16:41 [stdout] INFO: parse_detail
+2017-07-24 12:16:41 [stdout] INFO: 数据插入成功
+2017-07-24 12:16:45 [stdout] INFO: <200 https://www.guazi.com/xingtai/94d78250d71a887ex.htm>
+2017-07-24 12:16:45 [stdout] INFO: parse_detail
+2017-07-24 12:16:45 [stdout] INFO: 数据插入成功
+2017-07-24 12:16:47 [stdout] INFO: <200 https://www.guazi.com/xingtai/aa95c75b2ed80dacx.htm>
+2017-07-24 12:16:47 [stdout] INFO: parse_detail
+2017-07-24 12:16:47 [stdout] INFO: 数据插入成功
+2017-07-24 12:16:50 [stdout] INFO: <200 https://www.guazi.com/xingtai/1d3c51abaa3e0044x.htm>
+2017-07-24 12:16:50 [stdout] INFO: parse_detail
+2017-07-24 12:16:51 [stdout] INFO: 数据插入成功
+2017-07-24 12:16:54 [stdout] INFO: <200 https://www.guazi.com/xingtai/a681238a8848f10dx.htm>
+2017-07-24 12:16:54 [stdout] INFO: parse_detail
+2017-07-24 12:16:55 [stdout] INFO: 数据插入成功
+2017-07-24 12:16:57 [stdout] INFO: <200 https://www.guazi.com/xingtai/1707ea6eaea710c9x.htm>
+2017-07-24 12:16:57 [stdout] INFO: parse_detail
+2017-07-24 12:16:57 [stdout] INFO: 数据插入成功
+2017-07-24 12:17:01 [stdout] INFO: <200 https://www.guazi.com/xingtai/9680dc84343e301cx.htm>
+2017-07-24 12:17:01 [stdout] INFO: parse_detail
+2017-07-24 12:17:01 [stdout] INFO: 数据插入成功
+2017-07-24 12:17:05 [stdout] INFO: <200 https://www.guazi.com/xingtai/f0330dc0f8a46682x.htm>
+2017-07-24 12:17:05 [stdout] INFO: parse_detail
+2017-07-24 12:17:05 [stdout] INFO: 数据插入成功
+2017-07-24 12:17:08 [stdout] INFO: <200 https://www.guazi.com/xingtai/b68768dff4e91d83x.htm>
+2017-07-24 12:17:08 [stdout] INFO: parse_detail
+2017-07-24 12:17:08 [stdout] INFO: 数据插入成功
+2017-07-24 12:17:13 [stdout] INFO: <200 https://www.guazi.com/xingtai/9e6c0274e5965aa2x.htm>
+2017-07-24 12:17:13 [stdout] INFO: parse_detail
+2017-07-24 12:17:13 [stdout] INFO: 数据插入成功
+2017-07-24 12:17:17 [stdout] INFO: <200 https://www.guazi.com/xingtai/24ac20f1d24c234fx.htm>
+2017-07-24 12:17:17 [stdout] INFO: parse_detail
+2017-07-24 12:17:17 [stdout] INFO: 数据插入成功
+2017-07-24 12:17:21 [stdout] INFO: <200 https://www.guazi.com/xingtai/954cc6ef555b3607x.htm>
+2017-07-24 12:17:21 [stdout] INFO: parse_detail
+2017-07-24 12:17:21 [stdout] INFO: 数据插入成功
+2017-07-24 12:17:24 [scrapy.extensions.logstats] INFO: Crawled 166 pages (at 17 pages/min), scraped 141 items (at 17 items/min)
+2017-07-24 12:17:25 [stdout] INFO: <200 https://www.guazi.com/xingtai/73059f2765c4ddfdx.htm>
+2017-07-24 12:17:25 [stdout] INFO: parse_detail
+2017-07-24 12:17:25 [stdout] INFO: 数据插入成功
+2017-07-24 12:17:30 [stdout] INFO: <200 https://www.guazi.com/xingtai/3f09e0dfe8a8c1fcx.htm>
+2017-07-24 12:17:30 [stdout] INFO: parse_detail
+2017-07-24 12:17:30 [stdout] INFO: 数据插入成功
+2017-07-24 12:17:33 [stdout] INFO: <200 https://www.guazi.com/xingtai/fc48f719e293a181x.htm>
+2017-07-24 12:17:33 [stdout] INFO: parse_detail
+2017-07-24 12:17:33 [stdout] INFO: 数据插入成功
+2017-07-24 12:17:37 [stdout] INFO: <200 https://www.guazi.com/xingtai/75ee65a56b91c732x.htm>
+2017-07-24 12:17:37 [stdout] INFO: parse_detail
+2017-07-24 12:17:38 [stdout] INFO: 数据插入成功
+2017-07-24 12:17:41 [stdout] INFO: <200 https://www.guazi.com/xingtai/eac68cc8c9bca611x.htm>
+2017-07-24 12:17:41 [stdout] INFO: parse_detail
+2017-07-24 12:17:41 [stdout] INFO: 数据插入成功
+2017-07-24 12:17:44 [stdout] INFO: <200 https://www.guazi.com/xingtai/96d071009661c3acx.htm>
+2017-07-24 12:17:44 [stdout] INFO: parse_detail
+2017-07-24 12:17:44 [stdout] INFO: 数据插入成功
+2017-07-24 12:17:48 [stdout] INFO: <200 https://www.guazi.com/xingtai/bbba981e4da48f0cx.htm>
+2017-07-24 12:17:48 [stdout] INFO: parse_detail
+2017-07-24 12:17:48 [stdout] INFO: 数据插入成功
+2017-07-24 12:17:52 [stdout] INFO: <200 https://www.guazi.com/xingtai/b0589e0270a43ec2x.htm>
+2017-07-24 12:17:52 [stdout] INFO: parse_detail
+2017-07-24 12:17:52 [stdout] INFO: 数据插入成功
+2017-07-24 12:17:56 [stdout] INFO: <200 https://www.guazi.com/xingtai/9d424e645413658cx.htm>
+2017-07-24 12:17:56 [stdout] INFO: parse_detail
+2017-07-24 12:17:56 [stdout] INFO: 数据插入成功
+2017-07-24 12:18:00 [stdout] INFO: <200 https://www.guazi.com/xingtai/154345dc5035098bx.htm>
+2017-07-24 12:18:00 [stdout] INFO: parse_detail
+2017-07-24 12:18:00 [stdout] INFO: 数据插入成功
+2017-07-24 12:18:04 [stdout] INFO: <200 https://www.guazi.com/xingtai/eae6d1d54b8e8df9x.htm>
+2017-07-24 12:18:04 [stdout] INFO: parse_detail
+2017-07-24 12:18:04 [stdout] INFO: 数据插入成功
+2017-07-24 12:18:07 [stdout] INFO: <200 https://www.guazi.com/xingtai/5c83f2678e1e1b28x.htm>
+2017-07-24 12:18:07 [stdout] INFO: parse_detail
+2017-07-24 12:18:07 [stdout] INFO: 数据插入成功
+2017-07-24 12:18:11 [stdout] INFO: <200 https://www.guazi.com/xingtai/eed337a3a2911ec3x.htm>
+2017-07-24 12:18:11 [stdout] INFO: parse_detail
+2017-07-24 12:18:11 [stdout] INFO: 数据插入成功
+2017-07-24 12:18:14 [stdout] INFO: <200 https://www.guazi.com/xingtai/dafe2746d3f7c32ax.htm>
+2017-07-24 12:18:14 [stdout] INFO: parse_detail
+2017-07-24 12:18:14 [stdout] INFO: 数据插入成功
+2017-07-24 12:18:17 [stdout] INFO: <200 https://www.guazi.com/xingtai/15f7e75dadc1a711x.htm>
+2017-07-24 12:18:17 [stdout] INFO: parse_detail
+2017-07-24 12:18:17 [stdout] INFO: 数据插入成功
+2017-07-24 12:18:21 [stdout] INFO: <200 https://www.guazi.com/xingtai/0dd0c59da69e18f2x.htm>
+2017-07-24 12:18:21 [stdout] INFO: parse_detail
+2017-07-24 12:18:21 [stdout] INFO: 数据插入成功
+2017-07-24 12:18:23 [stdout] INFO: <200 https://www.guazi.com/xingtai/2144add5b2dfa9ffx.htm>
+2017-07-24 12:18:23 [stdout] INFO: parse_detail
+2017-07-24 12:18:24 [stdout] INFO: 数据插入成功
+2017-07-24 12:18:24 [scrapy.extensions.logstats] INFO: Crawled 183 pages (at 17 pages/min), scraped 158 items (at 17 items/min)
+2017-07-24 12:18:28 [stdout] INFO: <200 https://www.guazi.com/xingtai/1dd9cfbe7566585cx.htm>
+2017-07-24 12:18:28 [stdout] INFO: parse_detail
+2017-07-24 12:18:28 [stdout] INFO: 数据插入成功
+2017-07-24 12:18:32 [stdout] INFO: <200 https://www.guazi.com/xingtai/e3d3d80a3e967fefx.htm>
+2017-07-24 12:18:32 [stdout] INFO: parse_detail
+2017-07-24 12:18:32 [stdout] INFO: 数据插入成功
+2017-07-24 12:18:34 [stdout] INFO: <200 https://www.guazi.com/xingtai/ec7c92f081fa4edax.htm>
+2017-07-24 12:18:34 [stdout] INFO: parse_detail
+2017-07-24 12:18:34 [stdout] INFO: 数据插入成功
+2017-07-24 12:18:37 [stdout] INFO: <200 https://www.guazi.com/xingtai/20b9369b882642f7x.htm>
+2017-07-24 12:18:37 [stdout] INFO: parse_detail
+2017-07-24 12:18:37 [stdout] INFO: 数据插入成功
+2017-07-24 12:18:41 [stdout] INFO: <200 https://www.guazi.com/xingtai/299752562b634980x.htm>
+2017-07-24 12:18:41 [stdout] INFO: parse_detail
+2017-07-24 12:18:41 [stdout] INFO: 数据插入成功
+2017-07-24 12:18:45 [stdout] INFO: <200 https://www.guazi.com/xingtai/c1ad4c5914856562x.htm>
+2017-07-24 12:18:45 [stdout] INFO: parse_detail
+2017-07-24 12:18:45 [stdout] INFO: 数据插入成功
+2017-07-24 12:18:49 [stdout] INFO: <200 https://www.guazi.com/xingtai/c6a09910086bcb9dx.htm>
+2017-07-24 12:18:49 [stdout] INFO: parse_detail
+2017-07-24 12:18:49 [stdout] INFO: 数据插入成功
+2017-07-24 12:18:53 [stdout] INFO: <200 https://www.guazi.com/xingtai/6744e52e39a8badbx.htm>
+2017-07-24 12:18:53 [stdout] INFO: parse_detail
+2017-07-24 12:18:53 [stdout] INFO: 数据插入成功
+2017-07-24 12:18:57 [stdout] INFO: <200 https://www.guazi.com/xingtai/984e63e4c6620a83x.htm>
+2017-07-24 12:18:57 [stdout] INFO: parse_detail
+2017-07-24 12:18:57 [stdout] INFO: 数据插入成功
+2017-07-24 12:19:01 [stdout] INFO: <200 https://www.guazi.com/xingtai/6ffe85dd95ed4baex.htm>
+2017-07-24 12:19:01 [stdout] INFO: parse_detail
+2017-07-24 12:19:01 [stdout] INFO: 数据插入成功
+2017-07-24 12:19:05 [stdout] INFO: <200 https://www.guazi.com/xingtai/fbdc29090858fbd1x.htm>
+2017-07-24 12:19:05 [stdout] INFO: parse_detail
+2017-07-24 12:19:05 [stdout] INFO: 数据插入成功
+2017-07-24 12:19:09 [stdout] INFO: <200 https://www.guazi.com/xingtai/89eaad081fcc4472x.htm>
+2017-07-24 12:19:09 [stdout] INFO: parse_detail
+2017-07-24 12:19:09 [stdout] INFO: 数据插入成功
+2017-07-24 12:19:13 [stdout] INFO: <200 https://www.guazi.com/xingtai/f9ebe8b2b69e3b71x.htm>
+2017-07-24 12:19:13 [stdout] INFO: parse_detail
+2017-07-24 12:19:13 [stdout] INFO: 数据插入成功
+2017-07-24 12:19:16 [stdout] INFO: <200 https://www.guazi.com/xingtai/8290cb6ee6eab8f6x.htm>
+2017-07-24 12:19:16 [stdout] INFO: parse_detail
+2017-07-24 12:19:16 [stdout] INFO: 数据插入成功
+2017-07-24 12:19:20 [stdout] INFO: <200 https://www.guazi.com/xingtai/b76db8dbe140de34x.htm>
+2017-07-24 12:19:20 [stdout] INFO: parse_detail
+2017-07-24 12:19:20 [stdout] INFO: 数据插入成功
+2017-07-24 12:19:24 [scrapy.extensions.logstats] INFO: Crawled 198 pages (at 15 pages/min), scraped 173 items (at 15 items/min)
+2017-07-24 12:19:24 [stdout] INFO: <200 https://www.guazi.com/xingtai/66bc275c425a886ax.htm>
+2017-07-24 12:19:24 [stdout] INFO: parse_detail
+2017-07-24 12:19:24 [stdout] INFO: 数据插入成功
+2017-07-24 12:19:28 [stdout] INFO: <200 https://www.guazi.com/xingtai/9ea987a644aa9008x.htm>
+2017-07-24 12:19:28 [stdout] INFO: parse_detail
+2017-07-24 12:19:28 [stdout] INFO: 数据插入成功
+2017-07-24 12:19:33 [stdout] INFO: <200 https://www.guazi.com/xingtai/bc2866aab2b1ed1fx.htm>
+2017-07-24 12:19:33 [stdout] INFO: parse_detail
+2017-07-24 12:19:33 [stdout] INFO: 数据插入成功
+2017-07-24 12:19:36 [stdout] INFO: <200 https://www.guazi.com/xingtai/eeec3abf2e3f23dex.htm>
+2017-07-24 12:19:36 [stdout] INFO: parse_detail
+2017-07-24 12:19:36 [stdout] INFO: 数据插入成功
+2017-07-24 12:19:39 [stdout] INFO: <200 https://www.guazi.com/xingtai/92ea0206dfb30223x.htm>
+2017-07-24 12:19:39 [stdout] INFO: parse_detail
+2017-07-24 12:19:39 [stdout] INFO: 数据插入成功
+2017-07-24 12:19:43 [stdout] INFO: <200 https://www.guazi.com/xingtai/26b1a52d7d5b41efx.htm>
+2017-07-24 12:19:43 [stdout] INFO: parse_detail
+2017-07-24 12:19:43 [stdout] INFO: 数据插入成功
+2017-07-24 12:19:45 [stdout] INFO: <200 https://www.guazi.com/xingtai/bf067bc3ed21400bx.htm>
+2017-07-24 12:19:45 [stdout] INFO: parse_detail
+2017-07-24 12:19:45 [stdout] INFO: 数据插入成功
+2017-07-24 12:19:49 [stdout] INFO: <200 https://www.guazi.com/xingtai/d76aa8a777a073b3x.htm>
+2017-07-24 12:19:49 [stdout] INFO: parse_detail
+2017-07-24 12:19:49 [stdout] INFO: 数据插入成功
+2017-07-24 12:19:52 [stdout] INFO: <200 https://www.guazi.com/xingtai/5b897b0be5b4ca8ex.htm>
+2017-07-24 12:19:52 [stdout] INFO: parse_detail
+2017-07-24 12:19:52 [stdout] INFO: 数据插入成功
+2017-07-24 12:19:56 [stdout] INFO: <200 https://www.guazi.com/xingtai/a2658c02a1ae4b90x.htm>
+2017-07-24 12:19:56 [stdout] INFO: parse_detail
+2017-07-24 12:19:56 [stdout] INFO: 数据插入成功
+2017-07-24 12:19:59 [stdout] INFO: <200 https://www.guazi.com/xingtai/063f8aa637bcdbc4x.htm>
+2017-07-24 12:19:59 [stdout] INFO: parse_detail
+2017-07-24 12:19:59 [stdout] INFO: 数据插入成功
+2017-07-24 12:20:03 [stdout] INFO: <200 https://www.guazi.com/xingtai/1ec45bab46889c4ax.htm>
+2017-07-24 12:20:03 [stdout] INFO: parse_detail
+2017-07-24 12:20:03 [stdout] INFO: 数据插入成功
+2017-07-24 12:20:07 [stdout] INFO: <200 https://www.guazi.com/xingtai/3fe67ae711b16326x.htm>
+2017-07-24 12:20:07 [stdout] INFO: parse_detail
+2017-07-24 12:20:07 [stdout] INFO: 数据插入成功
+2017-07-24 12:20:11 [stdout] INFO: <200 https://www.guazi.com/xingtai/73435ff0b6a85f22x.htm>
+2017-07-24 12:20:11 [stdout] INFO: parse_detail
+2017-07-24 12:20:11 [stdout] INFO: 数据插入成功
+2017-07-24 12:20:15 [stdout] INFO: <200 https://www.guazi.com/xingtai/2459699e1b22293fx.htm>
+2017-07-24 12:20:15 [stdout] INFO: parse_detail
+2017-07-24 12:20:15 [stdout] INFO: 数据插入成功
+2017-07-24 12:20:17 [stdout] INFO: <200 https://www.guazi.com/xingtai/78d54c3bd2020e7fx.htm>
+2017-07-24 12:20:17 [stdout] INFO: parse_detail
+2017-07-24 12:20:17 [stdout] INFO: 数据插入成功
+2017-07-24 12:20:21 [stdout] INFO: <200 https://www.guazi.com/xingtai/8cea912504985ba8x.htm>
+2017-07-24 12:20:21 [stdout] INFO: parse_detail
+2017-07-24 12:20:21 [stdout] INFO: 数据插入成功
+2017-07-24 12:20:24 [scrapy.extensions.logstats] INFO: Crawled 215 pages (at 17 pages/min), scraped 190 items (at 17 items/min)
+2017-07-24 12:20:25 [stdout] INFO: <200 https://www.guazi.com/xingtai/50675640ff037a68x.htm>
+2017-07-24 12:20:25 [stdout] INFO: parse_detail
+2017-07-24 12:20:25 [stdout] INFO: 数据插入成功
+2017-07-24 12:20:28 [stdout] INFO: <200 https://www.guazi.com/xingtai/3523f5d9546b3bc9x.htm>
+2017-07-24 12:20:28 [stdout] INFO: parse_detail
+2017-07-24 12:20:28 [stdout] INFO: 数据插入成功
+2017-07-24 12:20:36 [stdout] INFO: <200 https://www.guazi.com/xingtai/39cd6c3bbbc36154x.htm>
+2017-07-24 12:20:36 [stdout] INFO: parse_detail
+2017-07-24 12:20:36 [stdout] INFO: 数据插入成功
+2017-07-24 12:20:41 [stdout] INFO: <200 https://www.guazi.com/xingtai/730d01e8a92c5d3ex.htm>
+2017-07-24 12:20:41 [stdout] INFO: parse_detail
+2017-07-24 12:20:41 [stdout] INFO: 数据插入成功
+2017-07-24 12:20:42 [stdout] INFO: <200 https://www.guazi.com/xingtai/3cceef23609ec60ex.htm>
+2017-07-24 12:20:42 [stdout] INFO: parse_detail
+2017-07-24 12:20:42 [stdout] INFO: 数据插入成功
+2017-07-24 12:20:43 [stdout] INFO: <200 https://www.guazi.com/xingtai/202f529b0b576525x.htm>
+2017-07-24 12:20:43 [stdout] INFO: parse_detail
+2017-07-24 12:20:43 [stdout] INFO: 数据插入成功
+2017-07-24 12:20:46 [stdout] INFO: <200 https://www.guazi.com/xingtai/8e479848ee24db8ax.htm>
+2017-07-24 12:20:46 [stdout] INFO: parse_detail
+2017-07-24 12:20:46 [stdout] INFO: 数据插入成功
+2017-07-24 12:20:49 [stdout] INFO: <200 https://www.guazi.com/xingtai/ffc8bfc946fff615x.htm>
+2017-07-24 12:20:49 [stdout] INFO: parse_detail
+2017-07-24 12:20:49 [stdout] INFO: 数据插入成功
+2017-07-24 12:20:53 [stdout] INFO: <200 https://www.guazi.com/xingtai/68def441a34cad0fx.htm>
+2017-07-24 12:20:53 [stdout] INFO: parse_detail
+2017-07-24 12:20:53 [stdout] INFO: 数据插入成功
+2017-07-24 12:20:56 [stdout] INFO: <200 https://www.guazi.com/xingtai/14cb8b457847bf06x.htm>
+2017-07-24 12:20:56 [stdout] INFO: parse_detail
+2017-07-24 12:20:56 [stdout] INFO: 数据插入成功
+2017-07-24 12:21:01 [stdout] INFO: <200 https://www.guazi.com/xingtai/fc0914f9b62cd60cx.htm>
+2017-07-24 12:21:01 [stdout] INFO: parse_detail
+2017-07-24 12:21:01 [stdout] INFO: 数据插入成功
+2017-07-24 12:21:05 [stdout] INFO: <200 https://www.guazi.com/xingtai/27c63e31cfd9c73dx.htm>
+2017-07-24 12:21:05 [stdout] INFO: parse_detail
+2017-07-24 12:21:05 [stdout] INFO: 数据插入成功
+2017-07-24 12:21:09 [stdout] INFO: <200 https://www.guazi.com/xingtai/11fe2b3faff68b63x.htm>
+2017-07-24 12:21:09 [stdout] INFO: parse_detail
+2017-07-24 12:21:09 [stdout] INFO: 数据插入成功
+2017-07-24 12:21:13 [stdout] INFO: <200 https://www.guazi.com/xingtai/941287bd72a95c12x.htm>
+2017-07-24 12:21:13 [stdout] INFO: parse_detail
+2017-07-24 12:21:13 [stdout] INFO: 数据插入成功
+2017-07-24 12:21:17 [stdout] INFO: <200 https://www.guazi.com/xingtai/6a11c011087b95b7x.htm>
+2017-07-24 12:21:17 [stdout] INFO: parse_detail
+2017-07-24 12:21:17 [stdout] INFO: 数据插入成功
+2017-07-24 12:21:21 [stdout] INFO: <200 https://www.guazi.com/xingtai/19bc53d6c6c2b572x.htm>
+2017-07-24 12:21:21 [stdout] INFO: parse_detail
+2017-07-24 12:21:21 [stdout] INFO: 数据插入成功
+2017-07-24 12:21:24 [stdout] INFO: <200 https://www.guazi.com/xingtai/49859af68ebfc17cx.htm>
+2017-07-24 12:21:24 [stdout] INFO: parse_detail
+2017-07-24 12:21:24 [stdout] INFO: 数据插入成功
+2017-07-24 12:21:24 [scrapy.extensions.logstats] INFO: Crawled 232 pages (at 17 pages/min), scraped 207 items (at 17 items/min)
+2017-07-24 12:21:28 [stdout] INFO: <200 https://www.guazi.com/xingtai/f451190e6b8d024ax.htm>
+2017-07-24 12:21:28 [stdout] INFO: parse_detail
+2017-07-24 12:21:28 [stdout] INFO: 数据插入成功
+2017-07-24 12:21:32 [stdout] INFO: <200 https://www.guazi.com/xingtai/84253e02d93d0019x.htm>
+2017-07-24 12:21:32 [stdout] INFO: parse_detail
+2017-07-24 12:21:32 [stdout] INFO: 数据插入成功
+2017-07-24 12:21:36 [stdout] INFO: <200 https://www.guazi.com/xingtai/b1cb4134e7915676x.htm>
+2017-07-24 12:21:36 [stdout] INFO: parse_detail
+2017-07-24 12:21:36 [stdout] INFO: 数据插入成功
+2017-07-24 12:21:40 [stdout] INFO: <200 https://www.guazi.com/xingtai/d301523434e5ce4cx.htm>
+2017-07-24 12:21:40 [stdout] INFO: parse_detail
+2017-07-24 12:21:40 [stdout] INFO: 数据插入成功
+2017-07-24 12:21:44 [stdout] INFO: <200 https://www.guazi.com/xingtai/cabb4b212a7ac6f0x.htm>
+2017-07-24 12:21:44 [stdout] INFO: parse_detail
+2017-07-24 12:21:44 [stdout] INFO: 数据插入成功
+2017-07-24 12:21:48 [stdout] INFO: <200 https://www.guazi.com/xingtai/98adead667a142b8x.htm>
+2017-07-24 12:21:48 [stdout] INFO: parse_detail
+2017-07-24 12:21:48 [stdout] INFO: 数据插入成功
+2017-07-24 12:21:50 [stdout] INFO: <200 https://www.guazi.com/xingtai/4cd47e6008940609x.htm>
+2017-07-24 12:21:50 [stdout] INFO: parse_detail
+2017-07-24 12:21:50 [stdout] INFO: 数据插入成功
+2017-07-24 12:21:54 [stdout] INFO: <200 https://www.guazi.com/xingtai/6bfbc0f7e2a5f3eax.htm>
+2017-07-24 12:21:54 [stdout] INFO: parse_detail
+2017-07-24 12:21:54 [stdout] INFO: 数据插入成功
+2017-07-24 12:21:57 [stdout] INFO: <200 https://www.guazi.com/xingtai/f03138ad5d4e92ccx.htm>
+2017-07-24 12:21:57 [stdout] INFO: parse_detail
+2017-07-24 12:21:57 [stdout] INFO: 数据插入成功
+2017-07-24 12:22:01 [stdout] INFO: <200 https://www.guazi.com/xingtai/2d5979654a042281x.htm>
+2017-07-24 12:22:01 [stdout] INFO: parse_detail
+2017-07-24 12:22:01 [stdout] INFO: 数据插入成功
+2017-07-24 12:22:06 [stdout] INFO: <200 https://www.guazi.com/xingtai/7aa54b15013b9b73x.htm>
+2017-07-24 12:22:06 [stdout] INFO: parse_detail
+2017-07-24 12:22:06 [stdout] INFO: 数据插入成功
+2017-07-24 12:22:09 [stdout] INFO: <200 https://www.guazi.com/xingtai/d5c3ab7bb0b3a272x.htm>
+2017-07-24 12:22:09 [stdout] INFO: parse_detail
+2017-07-24 12:22:09 [stdout] INFO: 数据插入成功
+2017-07-24 12:22:13 [stdout] INFO: <200 https://www.guazi.com/xingtai/44134857f8ba595bx.htm>
+2017-07-24 12:22:13 [stdout] INFO: parse_detail
+2017-07-24 12:22:13 [stdout] INFO: 数据插入成功
+2017-07-24 12:22:17 [stdout] INFO: <200 https://www.guazi.com/xingtai/758a4966a7a4e8fdx.htm>
+2017-07-24 12:22:17 [stdout] INFO: parse_detail
+2017-07-24 12:22:17 [stdout] INFO: 数据插入成功
+2017-07-24 12:22:19 [stdout] INFO: <200 https://www.guazi.com/xingtai/367ae4630d7e454ax.htm>
+2017-07-24 12:22:19 [stdout] INFO: parse_detail
+2017-07-24 12:22:19 [stdout] INFO: 数据插入成功
+2017-07-24 12:22:21 [stdout] INFO: <200 https://www.guazi.com/xingtai/277753e24e8b26fdx.htm>
+2017-07-24 12:22:21 [stdout] INFO: parse_detail
+2017-07-24 12:22:21 [stdout] INFO: 数据插入成功
+2017-07-24 12:22:24 [scrapy.extensions.logstats] INFO: Crawled 248 pages (at 16 pages/min), scraped 223 items (at 16 items/min)
+2017-07-24 12:22:25 [stdout] INFO: <200 https://www.guazi.com/xingtai/227dd722faad6c18x.htm>
+2017-07-24 12:22:25 [stdout] INFO: parse_detail
+2017-07-24 12:22:25 [stdout] INFO: 数据插入成功
+2017-07-24 12:22:29 [stdout] INFO: <200 https://www.guazi.com/xingtai/3eca74253761d700x.htm>
+2017-07-24 12:22:29 [stdout] INFO: parse_detail
+2017-07-24 12:22:29 [stdout] INFO: 数据插入成功
+2017-07-24 12:22:34 [stdout] INFO: <200 https://www.guazi.com/xingtai/af8e12bee1ff3e98x.htm>
+2017-07-24 12:22:34 [stdout] INFO: parse_detail
+2017-07-24 12:22:34 [stdout] INFO: 数据插入成功
+2017-07-24 12:22:37 [stdout] INFO: <200 https://www.guazi.com/xingtai/cb96a3e80018b7a2x.htm>
+2017-07-24 12:22:37 [stdout] INFO: parse_detail
+2017-07-24 12:22:37 [stdout] INFO: 数据插入成功
+2017-07-24 12:22:40 [stdout] INFO: <200 https://www.guazi.com/xingtai/33e1d9646be7323ex.htm>
+2017-07-24 12:22:40 [stdout] INFO: parse_detail
+2017-07-24 12:22:40 [stdout] INFO: 数据插入成功
+2017-07-24 12:22:43 [stdout] INFO: <200 https://www.guazi.com/xingtai/c64792b0d588206fx.htm>
+2017-07-24 12:22:43 [stdout] INFO: parse_detail
+2017-07-24 12:22:43 [stdout] INFO: 数据插入成功
+2017-07-24 12:22:47 [stdout] INFO: <200 https://www.guazi.com/xingtai/d456dc02dd52f832x.htm>
+2017-07-24 12:22:47 [stdout] INFO: parse_detail
+2017-07-24 12:22:47 [stdout] INFO: 数据插入成功
+2017-07-24 12:22:51 [stdout] INFO: <200 https://www.guazi.com/xingtai/bcd916d7b2e6346bx.htm>
+2017-07-24 12:22:51 [stdout] INFO: parse_detail
+2017-07-24 12:22:51 [stdout] INFO: 数据插入成功
+2017-07-24 12:22:55 [stdout] INFO: <200 https://www.guazi.com/xingtai/42d256c5e87094a6x.htm>
+2017-07-24 12:22:55 [stdout] INFO: parse_detail
+2017-07-24 12:22:55 [stdout] INFO: 数据插入成功
+2017-07-24 12:22:59 [stdout] INFO: <200 https://www.guazi.com/xingtai/edd0d6b96963873bx.htm>
+2017-07-24 12:22:59 [stdout] INFO: parse_detail
+2017-07-24 12:22:59 [stdout] INFO: 数据插入成功
+2017-07-24 12:23:04 [stdout] INFO: <200 https://www.guazi.com/xingtai/7d1a7504ddb6950dx.htm>
+2017-07-24 12:23:04 [stdout] INFO: parse_detail
+2017-07-24 12:23:04 [stdout] INFO: 数据插入成功
+2017-07-24 12:23:08 [stdout] INFO: <200 https://www.guazi.com/xingtai/7407e37d6b2eaf6dx.htm>
+2017-07-24 12:23:08 [stdout] INFO: parse_detail
+2017-07-24 12:23:08 [stdout] INFO: 数据插入成功
+2017-07-24 12:23:11 [stdout] INFO: <200 https://www.guazi.com/xingtai/5c9b2ad62e1447a0x.htm>
+2017-07-24 12:23:11 [stdout] INFO: parse_detail
+2017-07-24 12:23:11 [stdout] INFO: 数据插入成功
+2017-07-24 12:23:15 [stdout] INFO: <200 https://www.guazi.com/xingtai/2e68bbb5153efaaax.htm>
+2017-07-24 12:23:15 [stdout] INFO: parse_detail
+2017-07-24 12:23:15 [stdout] INFO: 数据插入成功
+2017-07-24 12:23:19 [stdout] INFO: <200 https://www.guazi.com/xingtai/77d6110c4c3c6c87x.htm>
+2017-07-24 12:23:19 [stdout] INFO: parse_detail
+2017-07-24 12:23:19 [stdout] INFO: 数据插入成功
+2017-07-24 12:23:22 [stdout] INFO: <200 https://www.guazi.com/xingtai/cded5fc67d1d5de0x.htm>
+2017-07-24 12:23:22 [stdout] INFO: parse_detail
+2017-07-24 12:23:22 [stdout] INFO: 数据插入成功
+2017-07-24 12:23:24 [scrapy.extensions.logstats] INFO: Crawled 264 pages (at 16 pages/min), scraped 239 items (at 16 items/min)
+2017-07-24 12:23:25 [stdout] INFO: <200 https://www.guazi.com/xingtai/c3cd553a6f74d542x.htm>
+2017-07-24 12:23:25 [stdout] INFO: parse_detail
+2017-07-24 12:23:26 [stdout] INFO: 数据插入成功
+2017-07-24 12:23:30 [stdout] INFO: <200 https://www.guazi.com/xingtai/21a3629b3841dd1bx.htm>
+2017-07-24 12:23:30 [stdout] INFO: parse_detail
+2017-07-24 12:23:30 [stdout] INFO: 数据插入成功
+2017-07-24 12:23:33 [stdout] INFO: <200 https://www.guazi.com/xingtai/c39f87f0b9781864x.htm>
+2017-07-24 12:23:33 [stdout] INFO: parse_detail
+2017-07-24 12:23:33 [stdout] INFO: 数据插入成功
+2017-07-24 12:23:36 [stdout] INFO: <200 https://www.guazi.com/xingtai/2e5abfd535fee02bx.htm>
+2017-07-24 12:23:36 [stdout] INFO: parse_detail
+2017-07-24 12:23:36 [stdout] INFO: 数据插入成功
+2017-07-24 12:23:39 [stdout] INFO: <200 https://www.guazi.com/xingtai/c05a98d55f26d6fex.htm>
+2017-07-24 12:23:39 [stdout] INFO: parse_detail
+2017-07-24 12:23:40 [stdout] INFO: 数据插入成功
+2017-07-24 12:23:42 [stdout] INFO: <200 https://www.guazi.com/xingtai/20f6751857778921x.htm>
+2017-07-24 12:23:42 [stdout] INFO: parse_detail
+2017-07-24 12:23:42 [stdout] INFO: 数据插入成功
+2017-07-24 12:23:47 [stdout] INFO: <200 https://www.guazi.com/xingtai/9743a59a9bd1a0a5x.htm>
+2017-07-24 12:23:47 [stdout] INFO: parse_detail
+2017-07-24 12:23:47 [stdout] INFO: 数据插入成功
+2017-07-24 12:23:49 [stdout] INFO: <200 https://www.guazi.com/xingtai/61604d089569fd02x.htm>
+2017-07-24 12:23:49 [stdout] INFO: parse_detail
+2017-07-24 12:23:50 [stdout] INFO: 数据插入成功
+2017-07-24 12:23:53 [stdout] INFO: <200 https://www.guazi.com/xingtai/5091f3758f180f5ax.htm>
+2017-07-24 12:23:53 [stdout] INFO: parse_detail
+2017-07-24 12:23:53 [stdout] INFO: 数据插入成功
+2017-07-24 12:23:56 [stdout] INFO: <200 https://www.guazi.com/xingtai/d00dade17fab46f4x.htm>
+2017-07-24 12:23:56 [stdout] INFO: parse_detail
+2017-07-24 12:23:56 [stdout] INFO: 数据插入成功
+2017-07-24 12:24:00 [stdout] INFO: <200 https://www.guazi.com/xingtai/f3c7f2109ca807a0x.htm>
+2017-07-24 12:24:00 [stdout] INFO: parse_detail
+2017-07-24 12:24:00 [stdout] INFO: 数据插入成功
+2017-07-24 12:24:04 [stdout] INFO: <200 https://www.guazi.com/xingtai/ec8526882456b65dx.htm>
+2017-07-24 12:24:04 [stdout] INFO: parse_detail
+2017-07-24 12:24:04 [stdout] INFO: 数据插入成功
+2017-07-24 12:24:09 [stdout] INFO: <200 https://www.guazi.com/xingtai/b7a86f527e756989x.htm>
+2017-07-24 12:24:09 [stdout] INFO: parse_detail
+2017-07-24 12:24:09 [stdout] INFO: 数据插入成功
+2017-07-24 12:24:13 [stdout] INFO: <200 https://www.guazi.com/xingtai/aa67080f23005604x.htm>
+2017-07-24 12:24:13 [stdout] INFO: parse_detail
+2017-07-24 12:24:13 [stdout] INFO: 数据插入成功
+2017-07-24 12:24:16 [stdout] INFO: <200 https://www.guazi.com/xingtai/9248e1f25d14a2a9x.htm>
+2017-07-24 12:24:16 [stdout] INFO: parse_detail
+2017-07-24 12:24:16 [stdout] INFO: 数据插入成功
+2017-07-24 12:24:18 [stdout] INFO: <200 https://www.guazi.com/xingtai/d600fed0a0a06680x.htm>
+2017-07-24 12:24:18 [stdout] INFO: parse_detail
+2017-07-24 12:24:18 [stdout] INFO: 数据插入成功
+2017-07-24 12:24:21 [stdout] INFO: <200 https://www.guazi.com/xingtai/9d91b4486c541d04x.htm>
+2017-07-24 12:24:21 [stdout] INFO: parse_detail
+2017-07-24 12:24:21 [stdout] INFO: 数据插入成功
+2017-07-24 12:24:24 [scrapy.extensions.logstats] INFO: Crawled 281 pages (at 17 pages/min), scraped 256 items (at 17 items/min)
+2017-07-24 12:24:25 [stdout] INFO: <200 https://www.guazi.com/xingtai/a78a0c41774ad149x.htm>
+2017-07-24 12:24:25 [stdout] INFO: parse_detail
+2017-07-24 12:24:25 [stdout] INFO: 数据插入成功
+2017-07-24 12:24:28 [stdout] INFO: <200 https://www.guazi.com/xingtai/9f204b6d4c1b2698x.htm>
+2017-07-24 12:24:28 [stdout] INFO: parse_detail
+2017-07-24 12:24:28 [stdout] INFO: 数据插入成功
+2017-07-24 12:24:33 [stdout] INFO: <200 https://www.guazi.com/xingtai/9ce4dcec233f1381x.htm>
+2017-07-24 12:24:33 [stdout] INFO: parse_detail
+2017-07-24 12:24:33 [stdout] INFO: 数据插入成功
+2017-07-24 12:24:35 [stdout] INFO: <200 https://www.guazi.com/xingtai/2623e5de9f952b70x.htm>
+2017-07-24 12:24:35 [stdout] INFO: parse_detail
+2017-07-24 12:24:35 [stdout] INFO: 数据插入成功
+2017-07-24 12:24:39 [stdout] INFO: <200 https://www.guazi.com/xingtai/71c04008c973579ex.htm>
+2017-07-24 12:24:39 [stdout] INFO: parse_detail
+2017-07-24 12:24:39 [stdout] INFO: 数据插入成功
+2017-07-24 12:24:44 [stdout] INFO: <200 https://www.guazi.com/xingtai/c55ee93626e923d2x.htm>
+2017-07-24 12:24:44 [stdout] INFO: parse_detail
+2017-07-24 12:24:44 [stdout] INFO: 数据插入成功
+2017-07-24 12:24:48 [stdout] INFO: <200 https://www.guazi.com/xingtai/0cbd255fd640ec33x.htm>
+2017-07-24 12:24:48 [stdout] INFO: parse_detail
+2017-07-24 12:24:48 [stdout] INFO: 数据插入成功
+2017-07-24 12:24:52 [stdout] INFO: <200 https://www.guazi.com/xingtai/1e62a9d00ea81f22x.htm>
+2017-07-24 12:24:52 [stdout] INFO: parse_detail
+2017-07-24 12:24:52 [stdout] INFO: 数据插入成功
+2017-07-24 12:24:56 [stdout] INFO: <200 https://www.guazi.com/xingtai/2eda88cb7a7141bdx.htm>
+2017-07-24 12:24:56 [stdout] INFO: parse_detail
+2017-07-24 12:24:56 [stdout] INFO: 数据插入成功
+2017-07-24 12:25:00 [stdout] INFO: <200 https://www.guazi.com/xingtai/0a9823b1f5d69251x.htm>
+2017-07-24 12:25:00 [stdout] INFO: parse_detail
+2017-07-24 12:25:00 [stdout] INFO: 数据插入成功
+2017-07-24 12:25:03 [stdout] INFO: <200 https://www.guazi.com/xingtai/910270442116dfc2x.htm>
+2017-07-24 12:25:03 [stdout] INFO: parse_detail
+2017-07-24 12:25:03 [stdout] INFO: 数据插入成功
+2017-07-24 12:25:08 [stdout] INFO: <200 https://www.guazi.com/xingtai/c842f85ebb435c74x.htm>
+2017-07-24 12:25:08 [stdout] INFO: parse_detail
+2017-07-24 12:25:08 [stdout] INFO: 数据插入成功
+2017-07-24 12:25:11 [stdout] INFO: <200 https://www.guazi.com/xingtai/06c7f467e50ada66x.htm>
+2017-07-24 12:25:11 [stdout] INFO: parse_detail
+2017-07-24 12:25:11 [stdout] INFO: 数据插入成功
+2017-07-24 12:25:15 [stdout] INFO: <200 https://www.guazi.com/xingtai/ae5f914c41ae42b9x.htm>
+2017-07-24 12:25:15 [stdout] INFO: parse_detail
+2017-07-24 12:25:15 [stdout] INFO: 数据插入成功
+2017-07-24 12:25:18 [stdout] INFO: <200 https://www.guazi.com/xingtai/0666d592a39ce4e3x.htm>
+2017-07-24 12:25:18 [stdout] INFO: parse_detail
+2017-07-24 12:25:18 [stdout] INFO: 数据插入成功
+2017-07-24 12:25:22 [stdout] INFO: <200 https://www.guazi.com/xingtai/915279db17149260x.htm>
+2017-07-24 12:25:22 [stdout] INFO: parse_detail
+2017-07-24 12:25:22 [stdout] INFO: 数据插入成功
+2017-07-24 12:25:24 [scrapy.extensions.logstats] INFO: Crawled 297 pages (at 16 pages/min), scraped 272 items (at 16 items/min)
+2017-07-24 12:25:26 [stdout] INFO: <200 https://www.guazi.com/xingtai/17200725a4fb0071x.htm>
+2017-07-24 12:25:26 [stdout] INFO: parse_detail
+2017-07-24 12:25:26 [stdout] INFO: 数据插入成功
+2017-07-24 12:25:30 [stdout] INFO: <200 https://www.guazi.com/xingtai/b7585f8038e783ffx.htm>
+2017-07-24 12:25:30 [stdout] INFO: parse_detail
+2017-07-24 12:25:30 [stdout] INFO: 数据插入成功
+2017-07-24 12:25:34 [stdout] INFO: <200 https://www.guazi.com/xingtai/2716c6f076079c75x.htm>
+2017-07-24 12:25:34 [stdout] INFO: parse_detail
+2017-07-24 12:25:34 [stdout] INFO: 数据插入成功
+2017-07-24 12:25:38 [stdout] INFO: <200 https://www.guazi.com/xingtai/60ab088788eb49c0x.htm>
+2017-07-24 12:25:38 [stdout] INFO: parse_detail
+2017-07-24 12:25:38 [stdout] INFO: 数据插入成功
+2017-07-24 12:25:42 [stdout] INFO: <200 https://www.guazi.com/xingtai/8698d687a7ead6d7x.htm>
+2017-07-24 12:25:42 [stdout] INFO: parse_detail
+2017-07-24 12:25:42 [stdout] INFO: 数据插入成功
+2017-07-24 12:25:45 [stdout] INFO: <200 https://www.guazi.com/xingtai/aae7917546f8e4dax.htm>
+2017-07-24 12:25:45 [stdout] INFO: parse_detail
+2017-07-24 12:25:45 [stdout] INFO: 数据插入成功
+2017-07-24 12:25:49 [stdout] INFO: <200 https://www.guazi.com/xingtai/6843384964bb64b5x.htm>
+2017-07-24 12:25:49 [stdout] INFO: parse_detail
+2017-07-24 12:25:49 [stdout] INFO: 数据插入成功
+2017-07-24 12:25:51 [stdout] INFO: <200 https://www.guazi.com/xingtai/0fab27c72195a30fx.htm>
+2017-07-24 12:25:51 [stdout] INFO: parse_detail
+2017-07-24 12:25:51 [stdout] INFO: 数据插入成功
+2017-07-24 12:25:54 [stdout] INFO: <200 https://www.guazi.com/xingtai/1579b80385d75b69x.htm>
+2017-07-24 12:25:54 [stdout] INFO: parse_detail
+2017-07-24 12:25:54 [stdout] INFO: 数据插入成功
+2017-07-24 12:25:58 [stdout] INFO: <200 https://www.guazi.com/xingtai/be1ba11fdf617ef1x.htm>
+2017-07-24 12:25:58 [stdout] INFO: parse_detail
+2017-07-24 12:25:58 [stdout] INFO: 数据插入成功
+2017-07-24 12:26:02 [stdout] INFO: <200 https://www.guazi.com/xingtai/98ccad8b264893a6x.htm>
+2017-07-24 12:26:02 [stdout] INFO: parse_detail
+2017-07-24 12:26:02 [stdout] INFO: 数据插入成功
+2017-07-24 12:26:05 [stdout] INFO: <200 https://www.guazi.com/xingtai/5f5ce50bd6dbba99x.htm>
+2017-07-24 12:26:05 [stdout] INFO: parse_detail
+2017-07-24 12:26:05 [stdout] INFO: 数据插入成功
+2017-07-24 12:26:10 [stdout] INFO: <200 https://www.guazi.com/xingtai/cc5792152983cb91x.htm>
+2017-07-24 12:26:10 [stdout] INFO: parse_detail
+2017-07-24 12:26:10 [stdout] INFO: 数据插入成功
+2017-07-24 12:26:13 [stdout] INFO: <200 https://www.guazi.com/xingtai/ebc1bed58016b16ax.htm>
+2017-07-24 12:26:13 [stdout] INFO: parse_detail
+2017-07-24 12:26:13 [stdout] INFO: 数据插入成功
+2017-07-24 12:26:17 [stdout] INFO: <200 https://www.guazi.com/xingtai/34830791064abd76x.htm>
+2017-07-24 12:26:17 [stdout] INFO: parse_detail
+2017-07-24 12:26:17 [stdout] INFO: 数据插入成功
+2017-07-24 12:26:21 [stdout] INFO: <200 https://www.guazi.com/xingtai/d7d16bc6e51aec75x.htm>
+2017-07-24 12:26:21 [stdout] INFO: parse_detail
+2017-07-24 12:26:21 [stdout] INFO: 数据插入成功
+2017-07-24 12:26:24 [scrapy.extensions.logstats] INFO: Crawled 313 pages (at 16 pages/min), scraped 288 items (at 16 items/min)
+2017-07-24 12:26:24 [stdout] INFO: <200 https://www.guazi.com/xingtai/7b08566339821435x.htm>
+2017-07-24 12:26:24 [stdout] INFO: parse_detail
+2017-07-24 12:26:24 [stdout] INFO: 数据插入成功
+2017-07-24 12:26:28 [stdout] INFO: <200 https://www.guazi.com/xingtai/bf42ff262aefff58x.htm>
+2017-07-24 12:26:28 [stdout] INFO: parse_detail
+2017-07-24 12:26:28 [stdout] INFO: 数据插入成功
+2017-07-24 12:26:32 [stdout] INFO: <200 https://www.guazi.com/xingtai/652b39fc72016142x.htm>
+2017-07-24 12:26:32 [stdout] INFO: parse_detail
+2017-07-24 12:26:32 [stdout] INFO: 数据插入成功
+2017-07-24 12:26:35 [stdout] INFO: <200 https://www.guazi.com/xingtai/c35ff2e991d1d5e4x.htm>
+2017-07-24 12:26:35 [stdout] INFO: parse_detail
+2017-07-24 12:26:35 [stdout] INFO: 数据插入成功
+2017-07-24 12:26:38 [stdout] INFO: <200 https://www.guazi.com/xingtai/8e4cfabf41e1ca68x.htm>
+2017-07-24 12:26:38 [stdout] INFO: parse_detail
+2017-07-24 12:26:38 [stdout] INFO: 数据插入成功
+2017-07-24 12:26:41 [stdout] INFO: <200 https://www.guazi.com/xingtai/59a0247382cac746x.htm>
+2017-07-24 12:26:41 [stdout] INFO: parse_detail
+2017-07-24 12:26:41 [stdout] INFO: 数据插入成功
+2017-07-24 12:26:45 [stdout] INFO: <200 https://www.guazi.com/xingtai/00dca9283883b539x.htm>
+2017-07-24 12:26:45 [stdout] INFO: parse_detail
+2017-07-24 12:26:45 [stdout] INFO: 数据插入成功
+2017-07-24 12:26:48 [stdout] INFO: <200 https://www.guazi.com/xingtai/37769583f2db9e80x.htm>
+2017-07-24 12:26:48 [stdout] INFO: parse_detail
+2017-07-24 12:26:48 [stdout] INFO: 数据插入成功
+2017-07-24 12:26:52 [stdout] INFO: <200 https://www.guazi.com/xingtai/a1b668a7837d0a0dx.htm>
+2017-07-24 12:26:52 [stdout] INFO: parse_detail
+2017-07-24 12:26:52 [stdout] INFO: 数据插入成功
+2017-07-24 12:26:56 [stdout] INFO: <200 https://www.guazi.com/xingtai/17ce46906b5d756cx.htm>
+2017-07-24 12:26:56 [stdout] INFO: parse_detail
+2017-07-24 12:26:56 [stdout] INFO: 数据插入成功
+2017-07-24 12:27:00 [stdout] INFO: <200 https://www.guazi.com/xingtai/568c98249e920611x.htm>
+2017-07-24 12:27:00 [stdout] INFO: parse_detail
+2017-07-24 12:27:00 [stdout] INFO: 数据插入成功
+2017-07-24 12:27:03 [stdout] INFO: <200 https://www.guazi.com/xingtai/4cbf18dfd08392f6x.htm>
+2017-07-24 12:27:03 [stdout] INFO: parse_detail
+2017-07-24 12:27:03 [stdout] INFO: 数据插入成功
+2017-07-24 12:27:06 [stdout] INFO: <200 https://www.guazi.com/xingtai/8c6ce1171ede434bx.htm>
+2017-07-24 12:27:06 [stdout] INFO: parse_detail
+2017-07-24 12:27:06 [stdout] INFO: 数据插入成功
+2017-07-24 12:27:10 [stdout] INFO: <200 https://www.guazi.com/xingtai/12541b6a34aac086x.htm>
+2017-07-24 12:27:10 [stdout] INFO: parse_detail
+2017-07-24 12:27:10 [stdout] INFO: 数据插入成功
+2017-07-24 12:27:14 [stdout] INFO: <200 https://www.guazi.com/xingtai/96e8ba09f30bedafx.htm>
+2017-07-24 12:27:14 [stdout] INFO: parse_detail
+2017-07-24 12:27:14 [stdout] INFO: 数据插入成功
+2017-07-24 12:27:17 [stdout] INFO: <200 https://www.guazi.com/xingtai/c523f5d6de7c7003x.htm>
+2017-07-24 12:27:17 [stdout] INFO: parse_detail
+2017-07-24 12:27:17 [stdout] INFO: 数据插入成功
+2017-07-24 12:27:22 [stdout] INFO: <200 https://www.guazi.com/xingtai/1bc724c3e14f0c87x.htm>
+2017-07-24 12:27:22 [stdout] INFO: parse_detail
+2017-07-24 12:27:22 [stdout] INFO: 数据插入成功
+2017-07-24 12:27:24 [scrapy.extensions.logstats] INFO: Crawled 330 pages (at 17 pages/min), scraped 305 items (at 17 items/min)
+2017-07-24 12:27:26 [stdout] INFO: <200 https://www.guazi.com/xingtai/e544a80c3d14b6a4x.htm>
+2017-07-24 12:27:26 [stdout] INFO: parse_detail
+2017-07-24 12:27:26 [stdout] INFO: 数据插入成功
+2017-07-24 12:27:29 [stdout] INFO: <200 https://www.guazi.com/baoding/3b6e410eafb5750cx.htm>
+2017-07-24 12:27:29 [stdout] INFO: parse_detail
+2017-07-24 12:27:29 [stdout] INFO: 数据插入成功
+2017-07-24 12:27:32 [stdout] INFO: <200 https://www.guazi.com/tangshan/2e0ebd1b5c4591d1x.htm>
+2017-07-24 12:27:32 [stdout] INFO: parse_detail
+2017-07-24 12:27:32 [stdout] INFO: 数据插入成功
+2017-07-24 12:27:36 [stdout] INFO: <200 https://www.guazi.com/sjz/d502703a12d59324x.htm>
+2017-07-24 12:27:36 [stdout] INFO: parse_detail
+2017-07-24 12:27:36 [stdout] INFO: 数据插入成功
+2017-07-24 12:27:40 [stdout] INFO: <200 https://www.guazi.com/handan/f3cbfe4147f79634x.htm>
+2017-07-24 12:27:40 [stdout] INFO: parse_detail
+2017-07-24 12:27:40 [stdout] INFO: 数据插入成功
+2017-07-24 12:27:43 [stdout] INFO: <200 https://www.guazi.com/handan/447de345521c564bx.htm>
+2017-07-24 12:27:43 [stdout] INFO: parse_detail
+2017-07-24 12:27:43 [stdout] INFO: 数据插入成功
+2017-07-24 12:27:47 [stdout] INFO: <200 https://www.guazi.com/tangshan/9f337b5aa8df7363x.htm>
+2017-07-24 12:27:47 [stdout] INFO: parse_detail
+2017-07-24 12:27:47 [stdout] INFO: 数据插入成功
+2017-07-24 12:27:51 [stdout] INFO: <200 https://www.guazi.com/sjz/a86d50df8fcd1ac9x.htm>
+2017-07-24 12:27:51 [stdout] INFO: parse_detail
+2017-07-24 12:27:51 [stdout] INFO: 数据插入成功
+2017-07-24 12:27:55 [stdout] INFO: <200 https://www.guazi.com/xingtai/abd818ce9249a11dx.htm>
+2017-07-24 12:27:55 [stdout] INFO: parse_detail
+2017-07-24 12:27:55 [stdout] INFO: 数据插入成功
+2017-07-24 12:27:59 [stdout] INFO: <200 https://www.guazi.com/xingtai/c3a298024edc2dd5x.htm>
+2017-07-24 12:27:59 [stdout] INFO: parse_detail
+2017-07-24 12:27:59 [stdout] INFO: 数据插入成功
+2017-07-24 12:28:03 [stdout] INFO: <200 https://www.guazi.com/xingtai/8b305f262e5f3482x.htm>
+2017-07-24 12:28:03 [stdout] INFO: parse_detail
+2017-07-24 12:28:03 [stdout] INFO: 数据插入成功
+2017-07-24 12:28:07 [stdout] INFO: <200 https://www.guazi.com/xingtai/5461b036bf9a4a37x.htm>
+2017-07-24 12:28:07 [stdout] INFO: parse_detail
+2017-07-24 12:28:07 [stdout] INFO: 数据插入成功
+2017-07-24 12:28:10 [stdout] INFO: <200 https://www.guazi.com/xingtai/e21890c3204c1f19x.htm>
+2017-07-24 12:28:10 [stdout] INFO: parse_detail
+2017-07-24 12:28:10 [stdout] INFO: 数据插入成功
+2017-07-24 12:28:14 [stdout] INFO: <200 https://www.guazi.com/xingtai/cb98d783ecd1e35bx.htm>
+2017-07-24 12:28:14 [stdout] INFO: parse_detail
+2017-07-24 12:28:14 [stdout] INFO: 数据插入成功
+2017-07-24 12:28:18 [stdout] INFO: <200 https://www.guazi.com/xingtai/89db051ae9b271b3x.htm>
+2017-07-24 12:28:18 [stdout] INFO: parse_detail
+2017-07-24 12:28:18 [stdout] INFO: 数据插入成功
+2017-07-24 12:28:22 [stdout] INFO: <200 https://www.guazi.com/xingtai/510bd93d196d2173x.htm>
+2017-07-24 12:28:22 [stdout] INFO: parse_detail
+2017-07-24 12:28:22 [stdout] INFO: 数据插入成功
+2017-07-24 12:28:24 [scrapy.extensions.logstats] INFO: Crawled 346 pages (at 16 pages/min), scraped 321 items (at 16 items/min)
+2017-07-24 12:28:26 [stdout] INFO: <200 https://www.guazi.com/xingtai/66dafd1c1741d37cx.htm>
+2017-07-24 12:28:26 [stdout] INFO: parse_detail
+2017-07-24 12:28:26 [stdout] INFO: 数据插入成功
+2017-07-24 12:28:30 [stdout] INFO: <200 https://www.guazi.com/xingtai/e1b51d5744e21bafx.htm>
+2017-07-24 12:28:30 [stdout] INFO: parse_detail
+2017-07-24 12:28:30 [stdout] INFO: 数据插入成功
+2017-07-24 12:28:34 [stdout] INFO: <200 https://www.guazi.com/xingtai/3b7d94a77f5c22d3x.htm>
+2017-07-24 12:28:34 [stdout] INFO: parse_detail
+2017-07-24 12:28:34 [stdout] INFO: 数据插入成功
+2017-07-24 12:28:38 [stdout] INFO: <200 https://www.guazi.com/xingtai/c9d51ff4324c3a53x.htm>
+2017-07-24 12:28:38 [stdout] INFO: parse_detail
+2017-07-24 12:28:38 [stdout] INFO: 数据插入成功
+2017-07-24 12:28:42 [stdout] INFO: <200 https://www.guazi.com/xingtai/1dddac10789d65d0x.htm>
+2017-07-24 12:28:42 [stdout] INFO: parse_detail
+2017-07-24 12:28:42 [stdout] INFO: 数据插入成功
+2017-07-24 12:28:46 [stdout] INFO: <200 https://www.guazi.com/xingtai/11399a81a7a1f156x.htm>
+2017-07-24 12:28:46 [stdout] INFO: parse_detail
+2017-07-24 12:28:46 [stdout] INFO: 数据插入成功
+2017-07-24 12:28:51 [stdout] INFO: <200 https://www.guazi.com/xingtai/928c580d6f521871x.htm>
+2017-07-24 12:28:51 [stdout] INFO: parse_detail
+2017-07-24 12:28:51 [stdout] INFO: 数据插入成功
+2017-07-24 12:28:55 [stdout] INFO: <200 https://www.guazi.com/xingtai/f211ecb317bb001ax.htm>
+2017-07-24 12:28:55 [stdout] INFO: parse_detail
+2017-07-24 12:28:55 [stdout] INFO: 数据插入成功
+2017-07-24 12:28:59 [stdout] INFO: <200 https://www.guazi.com/xingtai/270aab054c4b9c38x.htm>
+2017-07-24 12:28:59 [stdout] INFO: parse_detail
+2017-07-24 12:28:59 [stdout] INFO: 数据插入成功
+2017-07-24 12:29:02 [stdout] INFO: <200 https://www.guazi.com/xingtai/30d5cfea9b6f763fx.htm>
+2017-07-24 12:29:02 [stdout] INFO: parse_detail
+2017-07-24 12:29:02 [stdout] INFO: 数据插入成功
+2017-07-24 12:29:06 [stdout] INFO: <200 https://www.guazi.com/xingtai/434cf702921b3515x.htm>
+2017-07-24 12:29:06 [stdout] INFO: parse_detail
+2017-07-24 12:29:06 [stdout] INFO: 数据插入成功
+2017-07-24 12:29:10 [stdout] INFO: <200 https://www.guazi.com/xingtai/adb8b190802542e4x.htm>
+2017-07-24 12:29:10 [stdout] INFO: parse_detail
+2017-07-24 12:29:10 [stdout] INFO: 数据插入成功
+2017-07-24 12:29:12 [stdout] INFO: <200 https://www.guazi.com/xingtai/1ac7042919ea1111x.htm>
+2017-07-24 12:29:12 [stdout] INFO: parse_detail
+2017-07-24 12:29:12 [stdout] INFO: 数据插入成功
+2017-07-24 12:29:15 [stdout] INFO: <200 https://www.guazi.com/xingtai/511c9dd5ccd6b755x.htm>
+2017-07-24 12:29:15 [stdout] INFO: parse_detail
+2017-07-24 12:29:15 [stdout] INFO: 数据插入成功
+2017-07-24 12:29:19 [stdout] INFO: <200 https://www.guazi.com/xingtai/98704189e9b75674x.htm>
+2017-07-24 12:29:19 [stdout] INFO: parse_detail
+2017-07-24 12:29:19 [stdout] INFO: 数据插入成功
+2017-07-24 12:29:23 [stdout] INFO: <200 https://www.guazi.com/xingtai/29c418266b102644x.htm>
+2017-07-24 12:29:23 [stdout] INFO: parse_detail
+2017-07-24 12:29:23 [stdout] INFO: 数据插入成功
+2017-07-24 12:29:24 [scrapy.extensions.logstats] INFO: Crawled 362 pages (at 16 pages/min), scraped 337 items (at 16 items/min)
+2017-07-24 12:29:27 [stdout] INFO: <200 https://www.guazi.com/xingtai/fc3057cb88a2fe8cx.htm>
+2017-07-24 12:29:27 [stdout] INFO: parse_detail
+2017-07-24 12:29:27 [stdout] INFO: 数据插入成功
+2017-07-24 12:29:31 [stdout] INFO: <200 https://www.guazi.com/xingtai/25a72f61fd54a415x.htm>
+2017-07-24 12:29:31 [stdout] INFO: parse_detail
+2017-07-24 12:29:31 [stdout] INFO: 数据插入成功
+2017-07-24 12:29:36 [stdout] INFO: <200 https://www.guazi.com/xingtai/31da8cbdfaa19ba2x.htm>
+2017-07-24 12:29:36 [stdout] INFO: parse_detail
+2017-07-24 12:29:36 [stdout] INFO: 数据插入成功
+2017-07-24 12:29:40 [stdout] INFO: <200 https://www.guazi.com/xingtai/aaa331d2715e9899x.htm>
+2017-07-24 12:29:40 [stdout] INFO: parse_detail
+2017-07-24 12:29:40 [stdout] INFO: 数据插入成功
+2017-07-24 12:29:43 [stdout] INFO: <200 https://www.guazi.com/xingtai/24578b4fc750c347x.htm>
+2017-07-24 12:29:43 [stdout] INFO: parse_detail
+2017-07-24 12:29:43 [stdout] INFO: 数据插入成功
+2017-07-24 12:29:48 [stdout] INFO: <200 https://www.guazi.com/xingtai/66c780ef57dcfbffx.htm>
+2017-07-24 12:29:48 [stdout] INFO: parse_detail
+2017-07-24 12:29:48 [stdout] INFO: 数据插入成功
+2017-07-24 12:29:51 [stdout] INFO: <200 https://www.guazi.com/xingtai/e197f771971b183bx.htm>
+2017-07-24 12:29:51 [stdout] INFO: parse_detail
+2017-07-24 12:29:51 [stdout] INFO: 数据插入成功
+2017-07-24 12:29:54 [stdout] INFO: <200 https://www.guazi.com/xingtai/9914625b3e0afec5x.htm>
+2017-07-24 12:29:54 [stdout] INFO: parse_detail
+2017-07-24 12:29:54 [stdout] INFO: 数据插入成功
+2017-07-24 12:29:58 [stdout] INFO: <200 https://www.guazi.com/xingtai/9b2c6d10e9c3bb2ex.htm>
+2017-07-24 12:29:58 [stdout] INFO: parse_detail
+2017-07-24 12:29:58 [stdout] INFO: 数据插入成功
+2017-07-24 12:30:02 [stdout] INFO: <200 https://www.guazi.com/chengde/bbcd961893aec414x.htm>
+2017-07-24 12:30:02 [stdout] INFO: parse_detail
+2017-07-24 12:30:02 [stdout] INFO: 数据插入成功
+2017-07-24 12:30:04 [stdout] INFO: <200 https://www.guazi.com/chengde/a03f2496238ba848x.htm>
+2017-07-24 12:30:04 [stdout] INFO: parse_detail
+2017-07-24 12:30:04 [stdout] INFO: 数据插入成功
+2017-07-24 12:30:06 [stdout] INFO: <200 https://www.guazi.com/chengde/028c9525170511cax.htm>
+2017-07-24 12:30:06 [stdout] INFO: parse_detail
+2017-07-24 12:30:06 [stdout] INFO: 数据插入成功
+2017-07-24 12:30:11 [stdout] INFO: <200 https://www.guazi.com/chengde/7a9541aba99cafacx.htm>
+2017-07-24 12:30:11 [stdout] INFO: parse_detail
+2017-07-24 12:30:11 [stdout] INFO: 数据插入成功
+2017-07-24 12:30:14 [stdout] INFO: <200 https://www.guazi.com/chengde/cbc242fef2fe8530x.htm>
+2017-07-24 12:30:14 [stdout] INFO: parse_detail
+2017-07-24 12:30:14 [stdout] INFO: 数据插入成功
+2017-07-24 12:30:19 [stdout] INFO: <200 https://www.guazi.com/chengde/28235dd5f5bb4e55x.htm>
+2017-07-24 12:30:19 [stdout] INFO: parse_detail
+2017-07-24 12:30:19 [stdout] INFO: 数据插入成功
+2017-07-24 12:30:22 [stdout] INFO: <200 https://www.guazi.com/chengde/b4e77bafca83bd0ex.htm>
+2017-07-24 12:30:22 [stdout] INFO: parse_detail
+2017-07-24 12:30:22 [stdout] INFO: 数据插入成功
+2017-07-24 12:30:24 [scrapy.extensions.logstats] INFO: Crawled 378 pages (at 16 pages/min), scraped 353 items (at 16 items/min)
+2017-07-24 12:30:26 [stdout] INFO: <200 https://www.guazi.com/chengde/cf682d32c9cf8b24x.htm>
+2017-07-24 12:30:26 [stdout] INFO: parse_detail
+2017-07-24 12:30:26 [stdout] INFO: 数据插入成功
+2017-07-24 12:30:30 [stdout] INFO: <200 https://www.guazi.com/chengde/3da172da27f5447cx.htm>
+2017-07-24 12:30:30 [stdout] INFO: parse_detail
+2017-07-24 12:30:30 [stdout] INFO: 数据插入成功
+2017-07-24 12:30:34 [stdout] INFO: <200 https://www.guazi.com/chengde/5ea7474057ccd4fax.htm>
+2017-07-24 12:30:34 [stdout] INFO: parse_detail
+2017-07-24 12:30:34 [stdout] INFO: 数据插入成功
+2017-07-24 12:30:38 [stdout] INFO: <200 https://www.guazi.com/chengde/ae41c6440c9b9396x.htm>
+2017-07-24 12:30:38 [stdout] INFO: parse_detail
+2017-07-24 12:30:38 [stdout] INFO: 数据插入成功
+2017-07-24 12:30:42 [stdout] INFO: <200 https://www.guazi.com/chengde/ac42926318c7c462x.htm>
+2017-07-24 12:30:42 [stdout] INFO: parse_detail
+2017-07-24 12:30:42 [stdout] INFO: 数据插入成功
+2017-07-24 12:30:44 [stdout] INFO: <200 https://www.guazi.com/chengde/fc93012adf30e682x.htm>
+2017-07-24 12:30:44 [stdout] INFO: parse_detail
+2017-07-24 12:30:45 [stdout] INFO: 数据插入成功
+2017-07-24 12:30:49 [stdout] INFO: <200 https://www.guazi.com/chengde/f98e64244b40e97cx.htm>
+2017-07-24 12:30:49 [stdout] INFO: parse_detail
+2017-07-24 12:30:49 [stdout] INFO: 数据插入成功
+2017-07-24 12:30:53 [stdout] INFO: <200 https://www.guazi.com/chengde/539c914087ebca23x.htm>
+2017-07-24 12:30:53 [stdout] INFO: parse_detail
+2017-07-24 12:30:53 [stdout] INFO: 数据插入成功
+2017-07-24 12:30:57 [stdout] INFO: <200 https://www.guazi.com/chengde/f8cb9dc7e4243670x.htm>
+2017-07-24 12:30:57 [stdout] INFO: parse_detail
+2017-07-24 12:30:57 [stdout] INFO: 数据插入成功
+2017-07-24 12:31:00 [stdout] INFO: <200 https://www.guazi.com/chengde/2e4b8c60e249a854x.htm>
+2017-07-24 12:31:00 [stdout] INFO: parse_detail
+2017-07-24 12:31:00 [stdout] INFO: 数据插入成功
+2017-07-24 12:31:04 [stdout] INFO: <200 https://www.guazi.com/chengde/f8130ddb0873d822x.htm>
+2017-07-24 12:31:04 [stdout] INFO: parse_detail
+2017-07-24 12:31:04 [stdout] INFO: 数据插入成功
+2017-07-24 12:31:08 [stdout] INFO: <200 https://www.guazi.com/chengde/41cd0b5d2e443a19x.htm>
+2017-07-24 12:31:08 [stdout] INFO: parse_detail
+2017-07-24 12:31:08 [stdout] INFO: 数据插入成功
+2017-07-24 12:31:11 [stdout] INFO: <200 https://www.guazi.com/chengde/25b68964cefaa641x.htm>
+2017-07-24 12:31:11 [stdout] INFO: parse_detail
+2017-07-24 12:31:11 [stdout] INFO: 数据插入成功
+2017-07-24 12:31:15 [stdout] INFO: <200 https://www.guazi.com/chengde/80d77b9a895a66d4x.htm>
+2017-07-24 12:31:15 [stdout] INFO: parse_detail
+2017-07-24 12:31:15 [stdout] INFO: 数据插入成功
+2017-07-24 12:31:17 [stdout] INFO: <200 https://www.guazi.com/chengde/12f53361e58baf9bx.htm>
+2017-07-24 12:31:17 [stdout] INFO: parse_detail
+2017-07-24 12:31:17 [stdout] INFO: 数据插入成功
+2017-07-24 12:31:21 [stdout] INFO: <200 https://www.guazi.com/chengde/a0e8d7ec6003795bx.htm>
+2017-07-24 12:31:21 [stdout] INFO: parse_detail
+2017-07-24 12:31:21 [stdout] INFO: 数据插入成功
+2017-07-24 12:31:24 [scrapy.extensions.logstats] INFO: Crawled 394 pages (at 16 pages/min), scraped 369 items (at 16 items/min)
+2017-07-24 12:31:25 [stdout] INFO: <200 https://www.guazi.com/chengde/e91bd960e1b0bac3x.htm>
+2017-07-24 12:31:25 [stdout] INFO: parse_detail
+2017-07-24 12:31:25 [stdout] INFO: 数据插入成功
+2017-07-24 12:31:29 [stdout] INFO: <200 https://www.guazi.com/chengde/b105638dadc5d55ex.htm>
+2017-07-24 12:31:29 [stdout] INFO: parse_detail
+2017-07-24 12:31:29 [stdout] INFO: 数据插入成功
+2017-07-24 12:31:32 [stdout] INFO: <200 https://www.guazi.com/chengde/9965f5c836acd3fbx.htm>
+2017-07-24 12:31:32 [stdout] INFO: parse_detail
+2017-07-24 12:31:32 [stdout] INFO: 数据插入成功
+2017-07-24 12:31:36 [stdout] INFO: <200 https://www.guazi.com/chengde/feb655f1f7372293x.htm>
+2017-07-24 12:31:36 [stdout] INFO: parse_detail
+2017-07-24 12:31:36 [stdout] INFO: 数据插入成功
+2017-07-24 12:31:40 [stdout] INFO: <200 https://www.guazi.com/chengde/384e4a370558d348x.htm>
+2017-07-24 12:31:40 [stdout] INFO: parse_detail
+2017-07-24 12:31:40 [stdout] INFO: 数据插入成功
+2017-07-24 12:31:43 [stdout] INFO: <200 https://www.guazi.com/chengde/b04a536d0c92da2bx.htm>
+2017-07-24 12:31:43 [stdout] INFO: parse_detail
+2017-07-24 12:31:43 [stdout] INFO: 数据插入成功
+2017-07-24 12:32:03 [stdout] INFO: <200 https://www.guazi.com/hengshui/899d1534275d8d65x.htm>
+2017-07-24 12:32:03 [stdout] INFO: parse_detail
+2017-07-24 12:32:03 [stdout] INFO: 数据插入成功
+2017-07-24 12:32:07 [stdout] INFO: <200 https://www.guazi.com/hengshui/1d00c755e7530601x.htm>
+2017-07-24 12:32:07 [stdout] INFO: parse_detail
+2017-07-24 12:32:07 [stdout] INFO: 数据插入成功
+2017-07-24 12:32:11 [stdout] INFO: <200 https://www.guazi.com/hengshui/46f3850c7386b6c8x.htm>
+2017-07-24 12:32:11 [stdout] INFO: parse_detail
+2017-07-24 12:32:11 [stdout] INFO: 数据插入成功
+2017-07-24 12:32:15 [stdout] INFO: <200 https://www.guazi.com/hengshui/092421bc66ac92afx.htm>
+2017-07-24 12:32:15 [stdout] INFO: parse_detail
+2017-07-24 12:32:15 [stdout] INFO: 数据插入成功
+2017-07-24 12:32:19 [stdout] INFO: <200 https://www.guazi.com/hengshui/ffc05e360c1b2e12x.htm>
+2017-07-24 12:32:19 [stdout] INFO: parse_detail
+2017-07-24 12:32:19 [stdout] INFO: 数据插入成功
+2017-07-24 12:32:22 [stdout] INFO: <200 https://www.guazi.com/hengshui/802ade614b3e8a83x.htm>
+2017-07-24 12:32:22 [stdout] INFO: parse_detail
+2017-07-24 12:32:22 [stdout] INFO: 数据插入成功
+2017-07-24 12:32:24 [scrapy.extensions.logstats] INFO: Crawled 411 pages (at 17 pages/min), scraped 381 items (at 12 items/min)
+2017-07-24 12:32:26 [stdout] INFO: <200 https://www.guazi.com/hengshui/f8fcb2e990874b55x.htm>
+2017-07-24 12:32:26 [stdout] INFO: parse_detail
+2017-07-24 12:32:26 [stdout] INFO: 数据插入成功
+2017-07-24 12:32:28 [stdout] INFO: <200 https://www.guazi.com/hengshui/5a34b215fece5501x.htm>
+2017-07-24 12:32:28 [stdout] INFO: parse_detail
+2017-07-24 12:32:29 [stdout] INFO: 数据插入成功
+2017-07-24 12:32:33 [stdout] INFO: <200 https://www.guazi.com/hengshui/5fea897bdeec4900x.htm>
+2017-07-24 12:32:33 [stdout] INFO: parse_detail
+2017-07-24 12:32:33 [stdout] INFO: 数据插入成功
+2017-07-24 12:32:37 [stdout] INFO: <200 https://www.guazi.com/hengshui/4f758ad02c73ce81x.htm>
+2017-07-24 12:32:37 [stdout] INFO: parse_detail
+2017-07-24 12:32:37 [stdout] INFO: 数据插入成功
+2017-07-24 12:32:40 [stdout] INFO: <200 https://www.guazi.com/hengshui/4edad1a84b4f9311x.htm>
+2017-07-24 12:32:40 [stdout] INFO: parse_detail
+2017-07-24 12:32:40 [stdout] INFO: 数据插入成功
+2017-07-24 12:32:44 [stdout] INFO: <200 https://www.guazi.com/hengshui/086c4a5b3e72846ax.htm>
+2017-07-24 12:32:44 [stdout] INFO: parse_detail
+2017-07-24 12:32:44 [stdout] INFO: 数据插入成功
+2017-07-24 12:32:48 [stdout] INFO: <200 https://www.guazi.com/binzhou/6dc7c7ac16c1b836x.htm>
+2017-07-24 12:32:48 [stdout] INFO: parse_detail
+2017-07-24 12:32:48 [stdout] INFO: 数据插入成功
+2017-07-24 12:32:52 [stdout] INFO: <200 https://www.guazi.com/chengde/8e76ef746d43faebx.htm>
+2017-07-24 12:32:52 [stdout] INFO: parse_detail
+2017-07-24 12:32:52 [stdout] INFO: 数据插入成功
+2017-07-24 12:32:56 [stdout] INFO: <200 https://www.guazi.com/chengde/2fdad7d52d1f3abex.htm>
+2017-07-24 12:32:56 [stdout] INFO: parse_detail
+2017-07-24 12:32:56 [stdout] INFO: 数据插入成功
+2017-07-24 12:32:59 [stdout] INFO: <200 https://www.guazi.com/chengde/d1214c9bdbc25ad0x.htm>
+2017-07-24 12:32:59 [stdout] INFO: parse_detail
+2017-07-24 12:33:00 [stdout] INFO: 数据插入成功
+2017-07-24 12:33:03 [stdout] INFO: <200 https://www.guazi.com/chengde/a7b1a975b7b11c9fx.htm>
+2017-07-24 12:33:03 [stdout] INFO: parse_detail
+2017-07-24 12:33:03 [stdout] INFO: 数据插入成功
+2017-07-24 12:33:08 [stdout] INFO: <200 https://www.guazi.com/chengde/521f6df3d7356272x.htm>
+2017-07-24 12:33:08 [stdout] INFO: parse_detail
+2017-07-24 12:33:08 [stdout] INFO: 数据插入成功
+2017-07-24 12:33:10 [stdout] INFO: <200 https://www.guazi.com/chengde/1a76002b23c9720bx.htm>
+2017-07-24 12:33:10 [stdout] INFO: parse_detail
+2017-07-24 12:33:10 [stdout] INFO: 数据插入成功
+2017-07-24 12:33:12 [stdout] INFO: <200 https://www.guazi.com/chengde/a88c8c8910ef6471x.htm>
+2017-07-24 12:33:12 [stdout] INFO: parse_detail
+2017-07-24 12:33:12 [stdout] INFO: 数据插入成功
+2017-07-24 12:33:16 [stdout] INFO: <200 https://www.guazi.com/chengde/bdefd65f5fa47916x.htm>
+2017-07-24 12:33:16 [stdout] INFO: parse_detail
+2017-07-24 12:33:16 [stdout] INFO: 数据插入成功
+2017-07-24 12:33:20 [stdout] INFO: <200 https://www.guazi.com/chengde/7ab3a70aa44bafc4x.htm>
+2017-07-24 12:33:20 [stdout] INFO: parse_detail
+2017-07-24 12:33:20 [stdout] INFO: 数据插入成功
+2017-07-24 12:33:24 [scrapy.extensions.logstats] INFO: Crawled 427 pages (at 16 pages/min), scraped 397 items (at 16 items/min)
+2017-07-24 12:33:24 [stdout] INFO: <200 https://www.guazi.com/chengde/7e599ade89701eaax.htm>
+2017-07-24 12:33:24 [stdout] INFO: parse_detail
+2017-07-24 12:33:24 [stdout] INFO: 数据插入成功
+2017-07-24 12:33:28 [stdout] INFO: <200 https://www.guazi.com/chengde/9bc28a4b8d869cc0x.htm>
+2017-07-24 12:33:28 [stdout] INFO: parse_detail
+2017-07-24 12:33:28 [stdout] INFO: 数据插入成功
+2017-07-24 12:33:30 [stdout] INFO: <200 https://www.guazi.com/chengde/a018024971169b47x.htm>
+2017-07-24 12:33:30 [stdout] INFO: parse_detail
+2017-07-24 12:33:30 [stdout] INFO: 数据插入成功
+2017-07-24 12:33:34 [stdout] INFO: <200 https://www.guazi.com/chengde/15848ebde5175f60x.htm>
+2017-07-24 12:33:34 [stdout] INFO: parse_detail
+2017-07-24 12:33:34 [stdout] INFO: 数据插入成功
+2017-07-24 12:33:37 [stdout] INFO: <200 https://www.guazi.com/chengde/84313043901608d0x.htm>
+2017-07-24 12:33:37 [stdout] INFO: parse_detail
+2017-07-24 12:33:37 [stdout] INFO: 数据插入成功
+2017-07-24 12:33:42 [stdout] INFO: <200 https://www.guazi.com/chengde/90ae9d0a8fd7e032x.htm>
+2017-07-24 12:33:42 [stdout] INFO: parse_detail
+2017-07-24 12:33:42 [stdout] INFO: 数据插入成功
+2017-07-24 12:33:46 [stdout] INFO: <200 https://www.guazi.com/chengde/8e3ca5b6a2bde500x.htm>
+2017-07-24 12:33:46 [stdout] INFO: parse_detail
+2017-07-24 12:33:46 [stdout] INFO: 数据插入成功
+2017-07-24 12:33:50 [stdout] INFO: <200 https://www.guazi.com/chengde/d1be1ea183e488b7x.htm>
+2017-07-24 12:33:50 [stdout] INFO: parse_detail
+2017-07-24 12:33:50 [stdout] INFO: 数据插入成功
+2017-07-24 12:33:55 [stdout] INFO: <200 https://www.guazi.com/chengde/d595e90c5ec11c14x.htm>
+2017-07-24 12:33:55 [stdout] INFO: parse_detail
+2017-07-24 12:33:55 [stdout] INFO: 数据插入成功
+2017-07-24 12:33:58 [stdout] INFO: <200 https://www.guazi.com/chengde/ab2ac511a46871fbx.htm>
+2017-07-24 12:33:58 [stdout] INFO: parse_detail
+2017-07-24 12:33:58 [stdout] INFO: 数据插入成功
+2017-07-24 12:34:03 [stdout] INFO: <200 https://www.guazi.com/chengde/a4037d8880517a87x.htm>
+2017-07-24 12:34:03 [stdout] INFO: parse_detail
+2017-07-24 12:34:03 [stdout] INFO: 数据插入成功
+2017-07-24 12:34:06 [stdout] INFO: <200 https://www.guazi.com/chengde/6deba903493f99c1x.htm>
+2017-07-24 12:34:06 [stdout] INFO: parse_detail
+2017-07-24 12:34:06 [stdout] INFO: 数据插入成功
+2017-07-24 12:34:09 [stdout] INFO: <200 https://www.guazi.com/chengde/5e1c36f1a795d60dx.htm>
+2017-07-24 12:34:09 [stdout] INFO: parse_detail
+2017-07-24 12:34:09 [stdout] INFO: 数据插入成功
+2017-07-24 12:34:12 [stdout] INFO: <200 https://www.guazi.com/chengde/c97ff498011515d4x.htm>
+2017-07-24 12:34:12 [stdout] INFO: parse_detail
+2017-07-24 12:34:12 [stdout] INFO: 数据插入成功
+2017-07-24 12:34:16 [stdout] INFO: <200 https://www.guazi.com/chengde/209195a0c282a576x.htm>
+2017-07-24 12:34:16 [stdout] INFO: parse_detail
+2017-07-24 12:34:16 [stdout] INFO: 数据插入成功
+2017-07-24 12:34:21 [stdout] INFO: <200 https://www.guazi.com/chengde/4d88ce88ba08e4b7x.htm>
+2017-07-24 12:34:21 [stdout] INFO: parse_detail
+2017-07-24 12:34:21 [stdout] INFO: 数据插入成功
+2017-07-24 12:34:24 [scrapy.extensions.logstats] INFO: Crawled 443 pages (at 16 pages/min), scraped 413 items (at 16 items/min)
+2017-07-24 12:34:25 [stdout] INFO: <200 https://www.guazi.com/chengde/1f3c998d1fd46e5ax.htm>
+2017-07-24 12:34:25 [stdout] INFO: parse_detail
+2017-07-24 12:34:25 [stdout] INFO: 数据插入成功
+2017-07-24 12:34:29 [stdout] INFO: <200 https://www.guazi.com/chengde/026c42c7b0425a07x.htm>
+2017-07-24 12:34:29 [stdout] INFO: parse_detail
+2017-07-24 12:34:29 [stdout] INFO: 数据插入成功
+2017-07-24 12:34:33 [stdout] INFO: <200 https://www.guazi.com/chengde/edad4257a76b31c5x.htm>
+2017-07-24 12:34:33 [stdout] INFO: parse_detail
+2017-07-24 12:34:33 [stdout] INFO: 数据插入成功
+2017-07-24 12:34:37 [stdout] INFO: <200 https://www.guazi.com/chengde/19d18835021df77dx.htm>
+2017-07-24 12:34:37 [stdout] INFO: parse_detail
+2017-07-24 12:34:37 [stdout] INFO: 数据插入成功
+2017-07-24 12:34:41 [stdout] INFO: <200 https://www.guazi.com/chengde/a39249c9397e91cax.htm>
+2017-07-24 12:34:41 [stdout] INFO: parse_detail
+2017-07-24 12:34:41 [stdout] INFO: 数据插入成功
+2017-07-24 12:34:45 [stdout] INFO: <200 https://www.guazi.com/chengde/2546717277f645bfx.htm>
+2017-07-24 12:34:45 [stdout] INFO: parse_detail
+2017-07-24 12:34:45 [stdout] INFO: 数据插入成功
+2017-07-24 12:34:48 [stdout] INFO: <200 https://www.guazi.com/chengde/51f1b48e9f8676d7x.htm>
+2017-07-24 12:34:48 [stdout] INFO: parse_detail
+2017-07-24 12:34:48 [stdout] INFO: 数据插入成功
+2017-07-24 12:34:52 [stdout] INFO: <200 https://www.guazi.com/chengde/4866bcffefa558bcx.htm>
+2017-07-24 12:34:52 [stdout] INFO: parse_detail
+2017-07-24 12:34:52 [stdout] INFO: 数据插入成功
+2017-07-24 12:34:54 [stdout] INFO: <200 https://www.guazi.com/chengde/a42585c43ecf6df4x.htm>
+2017-07-24 12:34:54 [stdout] INFO: parse_detail
+2017-07-24 12:34:54 [stdout] INFO: 数据插入成功
+2017-07-24 12:34:58 [stdout] INFO: <200 https://www.guazi.com/chengde/2e28d4818a20be72x.htm>
+2017-07-24 12:34:58 [stdout] INFO: parse_detail
+2017-07-24 12:34:58 [stdout] INFO: 数据插入成功
+2017-07-24 12:35:01 [stdout] INFO: <200 https://www.guazi.com/chengde/c08eaadddafc71a4x.htm>
+2017-07-24 12:35:01 [stdout] INFO: parse_detail
+2017-07-24 12:35:01 [stdout] INFO: 数据插入成功
+2017-07-24 12:35:03 [stdout] INFO: <200 https://www.guazi.com/chengde/9447799040839e3ex.htm>
+2017-07-24 12:35:03 [stdout] INFO: parse_detail
+2017-07-24 12:35:03 [stdout] INFO: 数据插入成功
+2017-07-24 12:35:05 [stdout] INFO: <200 https://www.guazi.com/chengde/a5671d9f2ff12b96x.htm>
+2017-07-24 12:35:05 [stdout] INFO: parse_detail
+2017-07-24 12:35:05 [stdout] INFO: 数据插入成功
+2017-07-24 12:35:09 [stdout] INFO: <200 https://www.guazi.com/chengde/1e7d2a3e66efc39dx.htm>
+2017-07-24 12:35:09 [stdout] INFO: parse_detail
+2017-07-24 12:35:09 [stdout] INFO: 数据插入成功
+2017-07-24 12:35:11 [stdout] INFO: <200 https://www.guazi.com/chengde/5970433624113de0x.htm>
+2017-07-24 12:35:11 [stdout] INFO: parse_detail
+2017-07-24 12:35:11 [stdout] INFO: 数据插入成功
+2017-07-24 12:35:14 [stdout] INFO: <200 https://www.guazi.com/chengde/c50a4bfaadc1e03ax.htm>
+2017-07-24 12:35:14 [stdout] INFO: parse_detail
+2017-07-24 12:35:14 [stdout] INFO: 数据插入成功
+2017-07-24 12:35:18 [stdout] INFO: <200 https://www.guazi.com/chengde/b6bb6072d85cf5c7x.htm>
+2017-07-24 12:35:18 [stdout] INFO: parse_detail
+2017-07-24 12:35:18 [stdout] INFO: 数据插入成功
+2017-07-24 12:35:21 [stdout] INFO: <200 https://www.guazi.com/chengde/574752ce6c2e1423x.htm>
+2017-07-24 12:35:21 [stdout] INFO: parse_detail
+2017-07-24 12:35:21 [stdout] INFO: 数据插入成功
+2017-07-24 12:35:24 [scrapy.extensions.logstats] INFO: Crawled 461 pages (at 18 pages/min), scraped 431 items (at 18 items/min)
+2017-07-24 12:35:24 [stdout] INFO: <200 https://www.guazi.com/chengde/fa6aa0e33c1d55d5x.htm>
+2017-07-24 12:35:24 [stdout] INFO: parse_detail
+2017-07-24 12:35:25 [stdout] INFO: 数据插入成功
+2017-07-24 12:35:28 [stdout] INFO: <200 https://www.guazi.com/chengde/1f64b02b646d815fx.htm>
+2017-07-24 12:35:28 [stdout] INFO: parse_detail
+2017-07-24 12:35:28 [stdout] INFO: 数据插入成功
+2017-07-24 12:35:31 [stdout] INFO: <200 https://www.guazi.com/chengde/39976dec99d26f53x.htm>
+2017-07-24 12:35:31 [stdout] INFO: parse_detail
+2017-07-24 12:35:31 [stdout] INFO: 数据插入成功
+2017-07-24 12:35:34 [stdout] INFO: <200 https://www.guazi.com/chengde/0d960461bb85be20x.htm>
+2017-07-24 12:35:34 [stdout] INFO: parse_detail
+2017-07-24 12:35:34 [stdout] INFO: 数据插入成功
+2017-07-24 12:35:38 [stdout] INFO: <200 https://www.guazi.com/chengde/73ea9fee4011b1b0x.htm>
+2017-07-24 12:35:38 [stdout] INFO: parse_detail
+2017-07-24 12:35:38 [stdout] INFO: 数据插入成功
+2017-07-24 12:35:41 [stdout] INFO: <200 https://www.guazi.com/chengde/6c45fa88e93e42afx.htm>
+2017-07-24 12:35:41 [stdout] INFO: parse_detail
+2017-07-24 12:35:41 [stdout] INFO: 数据插入成功
+2017-07-24 12:35:45 [stdout] INFO: <200 https://www.guazi.com/chengde/ef815d272c91cb7dx.htm>
+2017-07-24 12:35:45 [stdout] INFO: parse_detail
+2017-07-24 12:35:45 [stdout] INFO: 数据插入成功
+2017-07-24 12:35:48 [stdout] INFO: <200 https://www.guazi.com/chengde/954419df514f27c6x.htm>
+2017-07-24 12:35:48 [stdout] INFO: parse_detail
+2017-07-24 12:35:48 [stdout] INFO: 数据插入成功
+2017-07-24 12:35:50 [stdout] INFO: <200 https://www.guazi.com/chengde/5c8f890d87458e22x.htm>
+2017-07-24 12:35:50 [stdout] INFO: parse_detail
+2017-07-24 12:35:50 [stdout] INFO: 数据插入成功
+2017-07-24 12:35:54 [stdout] INFO: <200 https://www.guazi.com/chengde/ddd6e0fb76537dc1x.htm>
+2017-07-24 12:35:54 [stdout] INFO: parse_detail
+2017-07-24 12:35:54 [stdout] INFO: 数据插入成功
+2017-07-24 12:35:59 [stdout] INFO: <200 https://www.guazi.com/chengde/0e6f52513fdc7a22x.htm>
+2017-07-24 12:35:59 [stdout] INFO: parse_detail
+2017-07-24 12:35:59 [stdout] INFO: 数据插入成功
+2017-07-24 12:36:03 [stdout] INFO: <200 https://www.guazi.com/chengde/548b26eece80aabax.htm>
+2017-07-24 12:36:03 [stdout] INFO: parse_detail
+2017-07-24 12:36:03 [stdout] INFO: 数据插入成功
+2017-07-24 12:36:07 [stdout] INFO: <200 https://www.guazi.com/chengde/f97b8deb0d9abad8x.htm>
+2017-07-24 12:36:07 [stdout] INFO: parse_detail
+2017-07-24 12:36:07 [stdout] INFO: 数据插入成功
+2017-07-24 12:36:11 [stdout] INFO: <200 https://www.guazi.com/chengde/fe733bb8f600e2a5x.htm>
+2017-07-24 12:36:11 [stdout] INFO: parse_detail
+2017-07-24 12:36:11 [stdout] INFO: 数据插入成功
+2017-07-24 12:36:14 [stdout] INFO: <200 https://www.guazi.com/chengde/a7d3fe19eca60b4cx.htm>
+2017-07-24 12:36:14 [stdout] INFO: parse_detail
+2017-07-24 12:36:14 [stdout] INFO: 数据插入成功
+2017-07-24 12:36:18 [stdout] INFO: <200 https://www.guazi.com/chengde/8e86d91191eed0e8x.htm>
+2017-07-24 12:36:18 [stdout] INFO: parse_detail
+2017-07-24 12:36:18 [stdout] INFO: 数据插入成功
+2017-07-24 12:36:22 [stdout] INFO: <200 https://www.guazi.com/chengde/1fd5a132e59da8bbx.htm>
+2017-07-24 12:36:22 [stdout] INFO: parse_detail
+2017-07-24 12:36:22 [stdout] INFO: 数据插入成功
+2017-07-24 12:36:24 [scrapy.extensions.logstats] INFO: Crawled 478 pages (at 17 pages/min), scraped 448 items (at 17 items/min)
+2017-07-24 12:36:27 [stdout] INFO: <200 https://www.guazi.com/chengde/3f6700f2f56be20cx.htm>
+2017-07-24 12:36:27 [stdout] INFO: parse_detail
+2017-07-24 12:36:27 [stdout] INFO: 数据插入成功
+2017-07-24 12:36:30 [stdout] INFO: <200 https://www.guazi.com/chengde/ec8d6dec31b99deex.htm>
+2017-07-24 12:36:30 [stdout] INFO: parse_detail
+2017-07-24 12:36:30 [stdout] INFO: 数据插入成功
+2017-07-24 12:36:34 [stdout] INFO: <200 https://www.guazi.com/chengde/b45c8ddffdd87d38x.htm>
+2017-07-24 12:36:34 [stdout] INFO: parse_detail
+2017-07-24 12:36:34 [stdout] INFO: 数据插入成功
+2017-07-24 12:36:37 [stdout] INFO: <200 https://www.guazi.com/chengde/ccf9dc54cc59d02ex.htm>
+2017-07-24 12:36:37 [stdout] INFO: parse_detail
+2017-07-24 12:36:37 [stdout] INFO: 数据插入成功
+2017-07-24 12:36:40 [stdout] INFO: <200 https://www.guazi.com/chengde/7f22c559478c1835x.htm>
+2017-07-24 12:36:40 [stdout] INFO: parse_detail
+2017-07-24 12:36:40 [stdout] INFO: 数据插入成功
+2017-07-24 12:36:44 [stdout] INFO: <200 https://www.guazi.com/chengde/9c26f7ed1d880dd9x.htm>
+2017-07-24 12:36:44 [stdout] INFO: parse_detail
+2017-07-24 12:36:44 [stdout] INFO: 数据插入成功
+2017-07-24 12:36:47 [stdout] INFO: <200 https://www.guazi.com/chengde/7f4d78d9fff74ffcx.htm>
+2017-07-24 12:36:47 [stdout] INFO: parse_detail
+2017-07-24 12:36:47 [stdout] INFO: 数据插入成功
+2017-07-24 12:36:52 [stdout] INFO: <200 https://www.guazi.com/chengde/d53b14d592f6abe7x.htm>
+2017-07-24 12:36:52 [stdout] INFO: parse_detail
+2017-07-24 12:36:52 [stdout] INFO: 数据插入成功
+2017-07-24 12:36:55 [stdout] INFO: <200 https://www.guazi.com/chengde/52d278fd99621cfdx.htm>
+2017-07-24 12:36:55 [stdout] INFO: parse_detail
+2017-07-24 12:36:55 [stdout] INFO: 数据插入成功
+2017-07-24 12:36:59 [stdout] INFO: <200 https://www.guazi.com/chengde/e309500794fd8174x.htm>
+2017-07-24 12:36:59 [stdout] INFO: parse_detail
+2017-07-24 12:36:59 [stdout] INFO: 数据插入成功
+2017-07-24 12:37:04 [stdout] INFO: <200 https://www.guazi.com/chengde/b1cd76946593a85bx.htm>
+2017-07-24 12:37:04 [stdout] INFO: parse_detail
+2017-07-24 12:37:04 [stdout] INFO: 数据插入成功
+2017-07-24 12:37:08 [stdout] INFO: <200 https://www.guazi.com/chengde/c88f349a434d257cx.htm>
+2017-07-24 12:37:08 [stdout] INFO: parse_detail
+2017-07-24 12:37:08 [stdout] INFO: 数据插入成功
+2017-07-24 12:37:10 [stdout] INFO: <200 https://www.guazi.com/chengde/fccdeb044f9d213fx.htm>
+2017-07-24 12:37:10 [stdout] INFO: parse_detail
+2017-07-24 12:37:10 [stdout] INFO: 数据插入成功
+2017-07-24 12:37:14 [stdout] INFO: <200 https://www.guazi.com/chengde/11c5af877c3eb8f8x.htm>
+2017-07-24 12:37:14 [stdout] INFO: parse_detail
+2017-07-24 12:37:14 [stdout] INFO: 数据插入成功
+2017-07-24 12:37:18 [stdout] INFO: <200 https://www.guazi.com/chengde/2dc26727e2e02cf7x.htm>
+2017-07-24 12:37:18 [stdout] INFO: parse_detail
+2017-07-24 12:37:18 [stdout] INFO: 数据插入成功
+2017-07-24 12:37:22 [stdout] INFO: <200 https://www.guazi.com/chengde/6a9bad5222c742b6x.htm>
+2017-07-24 12:37:22 [stdout] INFO: parse_detail
+2017-07-24 12:37:23 [stdout] INFO: 数据插入成功
+2017-07-24 12:37:24 [scrapy.extensions.logstats] INFO: Crawled 494 pages (at 16 pages/min), scraped 464 items (at 16 items/min)
+2017-07-24 12:37:25 [stdout] INFO: <200 https://www.guazi.com/chengde/5cba51aa61d52ce7x.htm>
+2017-07-24 12:37:25 [stdout] INFO: parse_detail
+2017-07-24 12:37:25 [stdout] INFO: 数据插入成功
+2017-07-24 12:37:30 [stdout] INFO: <200 https://www.guazi.com/chengde/a661bd27f0317a08x.htm>
+2017-07-24 12:37:30 [stdout] INFO: parse_detail
+2017-07-24 12:37:30 [stdout] INFO: 数据插入成功
+2017-07-24 12:37:32 [stdout] INFO: <200 https://www.guazi.com/chengde/8780dc19ecd6fc0cx.htm>
+2017-07-24 12:37:32 [stdout] INFO: parse_detail
+2017-07-24 12:37:32 [stdout] INFO: 数据插入成功
+2017-07-24 12:37:35 [stdout] INFO: <200 https://www.guazi.com/chengde/4f469074694e02adx.htm>
+2017-07-24 12:37:35 [stdout] INFO: parse_detail
+2017-07-24 12:37:35 [stdout] INFO: 数据插入成功
+2017-07-24 12:37:39 [stdout] INFO: <200 https://www.guazi.com/chengde/325537301e1253e9x.htm>
+2017-07-24 12:37:39 [stdout] INFO: parse_detail
+2017-07-24 12:37:39 [stdout] INFO: 数据插入成功
+2017-07-24 12:37:44 [stdout] INFO: <200 https://www.guazi.com/chengde/35013f631c0731cax.htm>
+2017-07-24 12:37:44 [stdout] INFO: parse_detail
+2017-07-24 12:37:44 [stdout] INFO: 数据插入成功
+2017-07-24 12:37:47 [stdout] INFO: <200 https://www.guazi.com/chengde/54afcda1f8767641x.htm>
+2017-07-24 12:37:47 [stdout] INFO: parse_detail
+2017-07-24 12:37:47 [stdout] INFO: 数据插入成功
+2017-07-24 12:37:50 [stdout] INFO: <200 https://www.guazi.com/chengde/869b0eecf52ef745x.htm>
+2017-07-24 12:37:50 [stdout] INFO: parse_detail
+2017-07-24 12:37:50 [stdout] INFO: 数据插入成功
+2017-07-24 12:37:54 [stdout] INFO: <200 https://www.guazi.com/chengde/acf2eff9a7ac81e9x.htm>
+2017-07-24 12:37:54 [stdout] INFO: parse_detail
+2017-07-24 12:37:54 [stdout] INFO: 数据插入成功
+2017-07-24 12:37:57 [stdout] INFO: <200 https://www.guazi.com/chengde/1c3e55031e1b1a58x.htm>
+2017-07-24 12:37:57 [stdout] INFO: parse_detail
+2017-07-24 12:37:57 [stdout] INFO: 数据插入成功
+2017-07-24 12:38:00 [stdout] INFO: <200 https://www.guazi.com/chengde/5b60fa78522faad9x.htm>
+2017-07-24 12:38:00 [stdout] INFO: parse_detail
+2017-07-24 12:38:00 [stdout] INFO: 数据插入成功
+2017-07-24 12:38:03 [stdout] INFO: <200 https://www.guazi.com/chengde/53268d59b4644fc0x.htm>
+2017-07-24 12:38:03 [stdout] INFO: parse_detail
+2017-07-24 12:38:03 [stdout] INFO: 数据插入成功
+2017-07-24 12:38:07 [stdout] INFO: <200 https://www.guazi.com/chengde/2562254b025c4090x.htm>
+2017-07-24 12:38:07 [stdout] INFO: parse_detail
+2017-07-24 12:38:07 [stdout] INFO: 数据插入成功
+2017-07-24 12:38:11 [stdout] INFO: <200 https://www.guazi.com/chengde/bc2d4f1032c0dec0x.htm>
+2017-07-24 12:38:11 [stdout] INFO: parse_detail
+2017-07-24 12:38:11 [stdout] INFO: 数据插入成功
+2017-07-24 12:38:13 [stdout] INFO: <200 https://www.guazi.com/chengde/7381ef8e172ce3eax.htm>
+2017-07-24 12:38:13 [stdout] INFO: parse_detail
+2017-07-24 12:38:13 [stdout] INFO: 数据插入成功
+2017-07-24 12:38:16 [stdout] INFO: <200 https://www.guazi.com/chengde/a9240f806432dc08x.htm>
+2017-07-24 12:38:16 [stdout] INFO: parse_detail
+2017-07-24 12:38:16 [stdout] INFO: 数据插入成功
+2017-07-24 12:38:19 [stdout] INFO: <200 https://www.guazi.com/chengde/a567a84c7cd73fdax.htm>
+2017-07-24 12:38:19 [stdout] INFO: parse_detail
+2017-07-24 12:38:19 [stdout] INFO: 数据插入成功
+2017-07-24 12:38:24 [stdout] INFO: <200 https://www.guazi.com/chengde/3f82f0c82272bcd3x.htm>
+2017-07-24 12:38:24 [stdout] INFO: parse_detail
+2017-07-24 12:38:24 [stdout] INFO: 数据插入成功
+2017-07-24 12:38:24 [scrapy.extensions.logstats] INFO: Crawled 512 pages (at 18 pages/min), scraped 482 items (at 18 items/min)
+2017-07-24 12:38:27 [stdout] INFO: <200 https://www.guazi.com/chengde/59e91486672d73f9x.htm>
+2017-07-24 12:38:27 [stdout] INFO: parse_detail
+2017-07-24 12:38:27 [stdout] INFO: 数据插入成功
+2017-07-24 12:38:31 [stdout] INFO: <200 https://www.guazi.com/chengde/468b817a615bcaa2x.htm>
+2017-07-24 12:38:31 [stdout] INFO: parse_detail
+2017-07-24 12:38:31 [stdout] INFO: 数据插入成功
+2017-07-24 12:38:36 [stdout] INFO: <200 https://www.guazi.com/chengde/39c072bc7d5f37d9x.htm>
+2017-07-24 12:38:36 [stdout] INFO: parse_detail
+2017-07-24 12:38:36 [stdout] INFO: 数据插入成功
+2017-07-24 12:38:40 [stdout] INFO: <200 https://www.guazi.com/chengde/d2b6eac989ff14b0x.htm>
+2017-07-24 12:38:40 [stdout] INFO: parse_detail
+2017-07-24 12:38:40 [stdout] INFO: 数据插入成功
+2017-07-24 12:38:44 [stdout] INFO: <200 https://www.guazi.com/chengde/5327f3823b9e9e6cx.htm>
+2017-07-24 12:38:44 [stdout] INFO: parse_detail
+2017-07-24 12:38:45 [stdout] INFO: 数据插入成功
+2017-07-24 12:38:47 [stdout] INFO: <200 https://www.guazi.com/chengde/71d0168ecdfcb0a2x.htm>
+2017-07-24 12:38:47 [stdout] INFO: parse_detail
+2017-07-24 12:38:47 [stdout] INFO: 数据插入成功
+2017-07-24 12:38:52 [stdout] INFO: <200 https://www.guazi.com/chengde/da0f198b36b34441x.htm>
+2017-07-24 12:38:52 [stdout] INFO: parse_detail
+2017-07-24 12:38:52 [stdout] INFO: 数据插入成功
+2017-07-24 12:38:55 [stdout] INFO: <200 https://www.guazi.com/chengde/6c330e4d4f695c2bx.htm>
+2017-07-24 12:38:55 [stdout] INFO: parse_detail
+2017-07-24 12:38:55 [stdout] INFO: 数据插入成功
+2017-07-24 12:38:58 [stdout] INFO: <200 https://www.guazi.com/chengde/3f743072c6893e08x.htm>
+2017-07-24 12:38:58 [stdout] INFO: parse_detail
+2017-07-24 12:38:58 [stdout] INFO: 数据插入成功
+2017-07-24 12:39:02 [stdout] INFO: <200 https://www.guazi.com/chengde/2235ada544c3d32fx.htm>
+2017-07-24 12:39:02 [stdout] INFO: parse_detail
+2017-07-24 12:39:02 [stdout] INFO: 数据插入成功
+2017-07-24 12:39:05 [stdout] INFO: <200 https://www.guazi.com/chengde/9678f910c8558e1bx.htm>
+2017-07-24 12:39:05 [stdout] INFO: parse_detail
+2017-07-24 12:39:05 [stdout] INFO: 数据插入成功
+2017-07-24 12:39:09 [stdout] INFO: <200 https://www.guazi.com/chengde/a9d13f00be9fdbb9x.htm>
+2017-07-24 12:39:09 [stdout] INFO: parse_detail
+2017-07-24 12:39:09 [stdout] INFO: 数据插入成功
+2017-07-24 12:39:13 [stdout] INFO: <200 https://www.guazi.com/chengde/d07563667e222561x.htm>
+2017-07-24 12:39:13 [stdout] INFO: parse_detail
+2017-07-24 12:39:13 [stdout] INFO: 数据插入成功
+2017-07-24 12:39:18 [stdout] INFO: <200 https://www.guazi.com/chengde/b485ad47198daf0cx.htm>
+2017-07-24 12:39:18 [stdout] INFO: parse_detail
+2017-07-24 12:39:18 [stdout] INFO: 数据插入成功
+2017-07-24 12:39:22 [stdout] INFO: <200 https://www.guazi.com/chengde/f1f219f886d5ea20x.htm>
+2017-07-24 12:39:22 [stdout] INFO: parse_detail
+2017-07-24 12:39:22 [stdout] INFO: 数据插入成功
+2017-07-24 12:39:24 [scrapy.extensions.logstats] INFO: Crawled 527 pages (at 15 pages/min), scraped 497 items (at 15 items/min)
+2017-07-24 12:39:26 [stdout] INFO: <200 https://www.guazi.com/chengde/16809e11e398ac2dx.htm>
+2017-07-24 12:39:26 [stdout] INFO: parse_detail
+2017-07-24 12:39:26 [stdout] INFO: 数据插入成功
+2017-07-24 12:39:29 [stdout] INFO: <200 https://www.guazi.com/chengde/14c1cf937c321d58x.htm>
+2017-07-24 12:39:29 [stdout] INFO: parse_detail
+2017-07-24 12:39:29 [stdout] INFO: 数据插入成功
+2017-07-24 12:39:32 [stdout] INFO: <200 https://www.guazi.com/chengde/59154cc71503ca15x.htm>
+2017-07-24 12:39:32 [stdout] INFO: parse_detail
+2017-07-24 12:39:32 [stdout] INFO: 数据插入成功
+2017-07-24 12:39:36 [stdout] INFO: <200 https://www.guazi.com/chengde/5c950d60c52a9e17x.htm>
+2017-07-24 12:39:36 [stdout] INFO: parse_detail
+2017-07-24 12:39:36 [stdout] INFO: 数据插入成功
+2017-07-24 12:39:40 [stdout] INFO: <200 https://www.guazi.com/chengde/ad73d7dc389aa6c3x.htm>
+2017-07-24 12:39:40 [stdout] INFO: parse_detail
+2017-07-24 12:39:40 [stdout] INFO: 数据插入成功
+2017-07-24 12:39:43 [stdout] INFO: <200 https://www.guazi.com/chengde/c4e04eaab10917bbx.htm>
+2017-07-24 12:39:43 [stdout] INFO: parse_detail
+2017-07-24 12:39:43 [stdout] INFO: 数据插入成功
+2017-07-24 12:39:47 [stdout] INFO: <200 https://www.guazi.com/chengde/d6ebe5c33b84b941x.htm>
+2017-07-24 12:39:47 [stdout] INFO: parse_detail
+2017-07-24 12:39:47 [stdout] INFO: 数据插入成功
+2017-07-24 12:39:51 [stdout] INFO: <200 https://www.guazi.com/chengde/0fee304bb4eedc34x.htm>
+2017-07-24 12:39:51 [stdout] INFO: parse_detail
+2017-07-24 12:39:51 [stdout] INFO: 数据插入成功
+2017-07-24 12:39:55 [stdout] INFO: <200 https://www.guazi.com/chengde/8d544dfcc1e3c49dx.htm>
+2017-07-24 12:39:55 [stdout] INFO: parse_detail
+2017-07-24 12:39:55 [stdout] INFO: 数据插入成功
+2017-07-24 12:39:59 [stdout] INFO: <200 https://www.guazi.com/chengde/d11dd97563ead132x.htm>
+2017-07-24 12:39:59 [stdout] INFO: parse_detail
+2017-07-24 12:39:59 [stdout] INFO: 数据插入成功
+2017-07-24 12:40:03 [stdout] INFO: <200 https://www.guazi.com/chengde/2053b32856328b1bx.htm>
+2017-07-24 12:40:03 [stdout] INFO: parse_detail
+2017-07-24 12:40:03 [stdout] INFO: 数据插入成功
+2017-07-24 12:40:06 [stdout] INFO: <200 https://www.guazi.com/chengde/6450134c8b101cf8x.htm>
+2017-07-24 12:40:06 [stdout] INFO: parse_detail
+2017-07-24 12:40:06 [stdout] INFO: 数据插入成功
+2017-07-24 12:40:10 [stdout] INFO: <200 https://www.guazi.com/chengde/98962b00036b5b04x.htm>
+2017-07-24 12:40:10 [stdout] INFO: parse_detail
+2017-07-24 12:40:10 [stdout] INFO: 数据插入成功
+2017-07-24 12:40:13 [stdout] INFO: <200 https://www.guazi.com/chengde/6719b9d6b584674ex.htm>
+2017-07-24 12:40:13 [stdout] INFO: parse_detail
+2017-07-24 12:40:13 [stdout] INFO: 数据插入成功
+2017-07-24 12:40:18 [stdout] INFO: <200 https://www.guazi.com/chengde/6480a1781c0f2a43x.htm>
+2017-07-24 12:40:18 [stdout] INFO: parse_detail
+2017-07-24 12:40:18 [stdout] INFO: 数据插入成功
+2017-07-24 12:40:22 [stdout] INFO: <200 https://www.guazi.com/chengde/07ab9793d395f2d1x.htm>
+2017-07-24 12:40:22 [stdout] INFO: parse_detail
+2017-07-24 12:40:22 [stdout] INFO: 数据插入成功
+2017-07-24 12:40:24 [scrapy.extensions.logstats] INFO: Crawled 543 pages (at 16 pages/min), scraped 513 items (at 16 items/min)
+2017-07-24 12:40:26 [stdout] INFO: <200 https://www.guazi.com/chengde/c52115e165a3c892x.htm>
+2017-07-24 12:40:26 [stdout] INFO: parse_detail
+2017-07-24 12:40:26 [stdout] INFO: 数据插入成功
+2017-07-24 12:40:30 [stdout] INFO: <200 https://www.guazi.com/chengde/f357cb451cdb9565x.htm>
+2017-07-24 12:40:30 [stdout] INFO: parse_detail
+2017-07-24 12:40:30 [stdout] INFO: 数据插入成功
+2017-07-24 12:40:33 [stdout] INFO: <200 https://www.guazi.com/chengde/af7647ea1e704628x.htm>
+2017-07-24 12:40:33 [stdout] INFO: parse_detail
+2017-07-24 12:40:33 [stdout] INFO: 数据插入成功
+2017-07-24 12:40:37 [stdout] INFO: <200 https://www.guazi.com/chengde/b5af956c7366f2dbx.htm>
+2017-07-24 12:40:37 [stdout] INFO: parse_detail
+2017-07-24 12:40:37 [stdout] INFO: 数据插入成功
+2017-07-24 12:40:39 [stdout] INFO: <200 https://www.guazi.com/chengde/2c6beffc0cd53231x.htm>
+2017-07-24 12:40:39 [stdout] INFO: parse_detail
+2017-07-24 12:40:39 [stdout] INFO: 数据插入成功
+2017-07-24 12:40:42 [stdout] INFO: <200 https://www.guazi.com/chengde/5b5fad66a8fd41b8x.htm>
+2017-07-24 12:40:42 [stdout] INFO: parse_detail
+2017-07-24 12:40:42 [stdout] INFO: 数据插入成功
+2017-07-24 12:40:44 [stdout] INFO: <200 https://www.guazi.com/chengde/47793915b91109b4x.htm>
+2017-07-24 12:40:44 [stdout] INFO: parse_detail
+2017-07-24 12:40:44 [stdout] INFO: 数据插入成功
+2017-07-24 12:40:48 [stdout] INFO: <200 https://www.guazi.com/chengde/13b66e9f05fba8dax.htm>
+2017-07-24 12:40:48 [stdout] INFO: parse_detail
+2017-07-24 12:40:48 [stdout] INFO: 数据插入成功
+2017-07-24 12:40:51 [stdout] INFO: <200 https://www.guazi.com/chengde/a131d247d8874e2dx.htm>
+2017-07-24 12:40:51 [stdout] INFO: parse_detail
+2017-07-24 12:40:51 [stdout] INFO: 数据插入成功
+2017-07-24 12:40:56 [stdout] INFO: <200 https://www.guazi.com/chengde/d122c5a72a201df9x.htm>
+2017-07-24 12:40:56 [stdout] INFO: parse_detail
+2017-07-24 12:40:56 [stdout] INFO: 数据插入成功
+2017-07-24 12:40:59 [stdout] INFO: <200 https://www.guazi.com/chengde/465f695d23660153x.htm>
+2017-07-24 12:40:59 [stdout] INFO: parse_detail
+2017-07-24 12:40:59 [stdout] INFO: 数据插入成功
+2017-07-24 12:41:02 [stdout] INFO: <200 https://www.guazi.com/chengde/3d505b7a22e3817ax.htm>
+2017-07-24 12:41:02 [stdout] INFO: parse_detail
+2017-07-24 12:41:02 [stdout] INFO: 数据插入成功
+2017-07-24 12:41:07 [stdout] INFO: <200 https://www.guazi.com/chengde/02605fad29481ae5x.htm>
+2017-07-24 12:41:07 [stdout] INFO: parse_detail
+2017-07-24 12:41:07 [stdout] INFO: 数据插入成功
+2017-07-24 12:41:11 [stdout] INFO: <200 https://www.guazi.com/chengde/e2d59218d05fbaf7x.htm>
+2017-07-24 12:41:11 [stdout] INFO: parse_detail
+2017-07-24 12:41:11 [stdout] INFO: 数据插入成功
+2017-07-24 12:41:13 [stdout] INFO: <200 https://www.guazi.com/chengde/4b5438e9dbff421ax.htm>
+2017-07-24 12:41:13 [stdout] INFO: parse_detail
+2017-07-24 12:41:13 [stdout] INFO: 数据插入成功
+2017-07-24 12:41:17 [stdout] INFO: <200 https://www.guazi.com/chengde/1b0dbddfdd9eaafax.htm>
+2017-07-24 12:41:17 [stdout] INFO: parse_detail
+2017-07-24 12:41:17 [stdout] INFO: 数据插入成功
+2017-07-24 12:41:21 [stdout] INFO: <200 https://www.guazi.com/chengde/7314a6b9750a2450x.htm>
+2017-07-24 12:41:21 [stdout] INFO: parse_detail
+2017-07-24 12:41:21 [stdout] INFO: 数据插入成功
+2017-07-24 12:41:24 [scrapy.extensions.logstats] INFO: Crawled 560 pages (at 17 pages/min), scraped 530 items (at 17 items/min)
+2017-07-24 12:41:24 [stdout] INFO: <200 https://www.guazi.com/chengde/55244bb5e7d7d12ax.htm>
+2017-07-24 12:41:24 [stdout] INFO: parse_detail
+2017-07-24 12:41:24 [stdout] INFO: 数据插入成功
+2017-07-24 12:41:28 [stdout] INFO: <200 https://www.guazi.com/chengde/0cac10be222e3c36x.htm>
+2017-07-24 12:41:28 [stdout] INFO: parse_detail
+2017-07-24 12:41:28 [stdout] INFO: 数据插入成功
+2017-07-24 12:41:31 [stdout] INFO: <200 https://www.guazi.com/chengde/61cdc76bcdee2cd1x.htm>
+2017-07-24 12:41:31 [stdout] INFO: parse_detail
+2017-07-24 12:41:31 [stdout] INFO: 数据插入成功
+2017-07-24 12:41:34 [stdout] INFO: <200 https://www.guazi.com/chengde/30487baacbe2e60fx.htm>
+2017-07-24 12:41:34 [stdout] INFO: parse_detail
+2017-07-24 12:41:34 [stdout] INFO: 数据插入成功
+2017-07-24 12:41:37 [stdout] INFO: <200 https://www.guazi.com/chengde/1a53440d6054de41x.htm>
+2017-07-24 12:41:37 [stdout] INFO: parse_detail
+2017-07-24 12:41:37 [stdout] INFO: 数据插入成功
+2017-07-24 12:41:40 [stdout] INFO: <200 https://www.guazi.com/chengde/3a44cb26fe7678b2x.htm>
+2017-07-24 12:41:40 [stdout] INFO: parse_detail
+2017-07-24 12:41:40 [stdout] INFO: 数据插入成功
+2017-07-24 12:41:43 [stdout] INFO: <200 https://www.guazi.com/chengde/e98f8a03ef25c479x.htm>
+2017-07-24 12:41:43 [stdout] INFO: parse_detail
+2017-07-24 12:41:43 [stdout] INFO: 数据插入成功
+2017-07-24 12:41:46 [stdout] INFO: <200 https://www.guazi.com/chengde/e6623ae6b2901661x.htm>
+2017-07-24 12:41:46 [stdout] INFO: parse_detail
+2017-07-24 12:41:46 [stdout] INFO: 数据插入成功
+2017-07-24 12:41:50 [stdout] INFO: <200 https://www.guazi.com/chengde/bc8cff80caad75f3x.htm>
+2017-07-24 12:41:50 [stdout] INFO: parse_detail
+2017-07-24 12:41:50 [stdout] INFO: 数据插入成功
+2017-07-24 12:41:54 [stdout] INFO: <200 https://www.guazi.com/chengde/f8f29df45d0ffdb5x.htm>
+2017-07-24 12:41:54 [stdout] INFO: parse_detail
+2017-07-24 12:41:54 [stdout] INFO: 数据插入成功
+2017-07-24 12:41:56 [stdout] INFO: <200 https://www.guazi.com/chengde/79e47f1a2f5b54d6x.htm>
+2017-07-24 12:41:56 [stdout] INFO: parse_detail
+2017-07-24 12:41:56 [stdout] INFO: 数据插入成功
+2017-07-24 12:42:00 [stdout] INFO: <200 https://www.guazi.com/chengde/37f76e2672ffd474x.htm>
+2017-07-24 12:42:00 [stdout] INFO: parse_detail
+2017-07-24 12:42:00 [stdout] INFO: 数据插入成功
+2017-07-24 12:42:03 [stdout] INFO: <200 https://www.guazi.com/chengde/4098a73e0cf5e510x.htm>
+2017-07-24 12:42:03 [stdout] INFO: parse_detail
+2017-07-24 12:42:03 [stdout] INFO: 数据插入成功
+2017-07-24 12:42:06 [stdout] INFO: <200 https://www.guazi.com/chengde/b9c891e8dbfa0396x.htm>
+2017-07-24 12:42:06 [stdout] INFO: parse_detail
+2017-07-24 12:42:06 [stdout] INFO: 数据插入成功
+2017-07-24 12:42:08 [stdout] INFO: <200 https://www.guazi.com/chengde/20a628c8493889cax.htm>
+2017-07-24 12:42:08 [stdout] INFO: parse_detail
+2017-07-24 12:42:08 [stdout] INFO: 数据插入成功
+2017-07-24 12:42:12 [stdout] INFO: <200 https://www.guazi.com/chengde/22e22b1d5e480669x.htm>
+2017-07-24 12:42:12 [stdout] INFO: parse_detail
+2017-07-24 12:42:12 [stdout] INFO: 数据插入成功
+2017-07-24 12:42:16 [stdout] INFO: <200 https://www.guazi.com/chengde/5e598af5c7c925abx.htm>
+2017-07-24 12:42:16 [stdout] INFO: parse_detail
+2017-07-24 12:42:16 [stdout] INFO: 数据插入成功
+2017-07-24 12:42:19 [stdout] INFO: <200 https://www.guazi.com/chengde/055467fbc061e277x.htm>
+2017-07-24 12:42:19 [stdout] INFO: parse_detail
+2017-07-24 12:42:19 [stdout] INFO: 数据插入成功
+2017-07-24 12:42:23 [stdout] INFO: <200 https://www.guazi.com/xingtai/dd1aed5add9afc14x.htm>
+2017-07-24 12:42:23 [stdout] INFO: parse_detail
+2017-07-24 12:42:23 [stdout] INFO: 数据插入成功
+2017-07-24 12:42:24 [scrapy.extensions.logstats] INFO: Crawled 579 pages (at 19 pages/min), scraped 549 items (at 19 items/min)
+2017-07-24 12:42:28 [stdout] INFO: <200 https://www.guazi.com/bj/be60e31ba66d4dbcx.htm>
+2017-07-24 12:42:28 [stdout] INFO: parse_detail
+2017-07-24 12:42:28 [stdout] INFO: 数据插入成功
+2017-07-24 12:42:32 [stdout] INFO: <200 https://www.guazi.com/bj/a22e411179f0d594x.htm>
+2017-07-24 12:42:32 [stdout] INFO: parse_detail
+2017-07-24 12:42:32 [stdout] INFO: 数据插入成功
+2017-07-24 12:42:35 [stdout] INFO: <200 https://www.guazi.com/bj/7a09572280cd4118x.htm>
+2017-07-24 12:42:35 [stdout] INFO: parse_detail
+2017-07-24 12:42:35 [stdout] INFO: 数据插入成功
+2017-07-24 12:42:39 [stdout] INFO: <200 https://www.guazi.com/chengde/d12ec76873bca212x.htm>
+2017-07-24 12:42:39 [stdout] INFO: parse_detail
+2017-07-24 12:42:39 [stdout] INFO: 数据插入成功
+2017-07-24 12:42:43 [stdout] INFO: <200 https://www.guazi.com/chengde/cf2f6a43b8e1ca52x.htm>
+2017-07-24 12:42:43 [stdout] INFO: parse_detail
+2017-07-24 12:42:43 [stdout] INFO: 数据插入成功
+2017-07-24 12:42:46 [stdout] INFO: <200 https://www.guazi.com/chengde/5999f854ab13a225x.htm>
+2017-07-24 12:42:46 [stdout] INFO: parse_detail
+2017-07-24 12:42:46 [stdout] INFO: 数据插入成功
+2017-07-24 12:42:50 [stdout] INFO: <200 https://www.guazi.com/chengde/d6b2ab94c48404e8x.htm>
+2017-07-24 12:42:50 [stdout] INFO: parse_detail
+2017-07-24 12:42:50 [stdout] INFO: 数据插入成功
+2017-07-24 12:42:54 [stdout] INFO: <200 https://www.guazi.com/chengde/8181b877c6d79dcax.htm>
+2017-07-24 12:42:54 [stdout] INFO: parse_detail
+2017-07-24 12:42:54 [stdout] INFO: 数据插入成功
+2017-07-24 12:42:59 [stdout] INFO: <200 https://www.guazi.com/chengde/79bef7ccafc7d1e3x.htm>
+2017-07-24 12:42:59 [stdout] INFO: parse_detail
+2017-07-24 12:42:59 [stdout] INFO: 数据插入成功
+2017-07-24 12:43:02 [stdout] INFO: <200 https://www.guazi.com/chengde/ad3e79bf7547d7bax.htm>
+2017-07-24 12:43:02 [stdout] INFO: parse_detail
+2017-07-24 12:43:02 [stdout] INFO: 数据插入成功
+2017-07-24 12:43:05 [stdout] INFO: <200 https://www.guazi.com/chengde/4c13976188e5a782x.htm>
+2017-07-24 12:43:05 [stdout] INFO: parse_detail
+2017-07-24 12:43:05 [stdout] INFO: 数据插入成功
+2017-07-24 12:43:08 [stdout] INFO: <200 https://www.guazi.com/chengde/8b22fd999408be93x.htm>
+2017-07-24 12:43:08 [stdout] INFO: parse_detail
+2017-07-24 12:43:08 [stdout] INFO: 数据插入成功
+2017-07-24 12:43:11 [stdout] INFO: <200 https://www.guazi.com/chengde/ca9dd0e3717b3d4fx.htm>
+2017-07-24 12:43:11 [stdout] INFO: parse_detail
+2017-07-24 12:43:11 [stdout] INFO: 数据插入成功
+2017-07-24 12:43:13 [stdout] INFO: <200 https://www.guazi.com/chengde/d222446d50e90e0fx.htm>
+2017-07-24 12:43:13 [stdout] INFO: parse_detail
+2017-07-24 12:43:13 [stdout] INFO: 数据插入成功
+2017-07-24 12:43:17 [stdout] INFO: <200 https://www.guazi.com/chengde/6e07124318eba56cx.htm>
+2017-07-24 12:43:17 [stdout] INFO: parse_detail
+2017-07-24 12:43:17 [stdout] INFO: 数据插入成功
+2017-07-24 12:43:20 [stdout] INFO: <200 https://www.guazi.com/chengde/6f21fe31c30a77b5x.htm>
+2017-07-24 12:43:20 [stdout] INFO: parse_detail
+2017-07-24 12:43:20 [stdout] INFO: 数据插入成功
+2017-07-24 12:43:24 [scrapy.extensions.logstats] INFO: Crawled 595 pages (at 16 pages/min), scraped 565 items (at 16 items/min)
+2017-07-24 12:43:24 [stdout] INFO: <200 https://www.guazi.com/chengde/74fd69917f944016x.htm>
+2017-07-24 12:43:24 [stdout] INFO: parse_detail
+2017-07-24 12:43:24 [stdout] INFO: 数据插入成功
+2017-07-24 12:43:27 [stdout] INFO: <200 https://www.guazi.com/chengde/8d0ae92ef2550fbex.htm>
+2017-07-24 12:43:27 [stdout] INFO: parse_detail
+2017-07-24 12:43:27 [stdout] INFO: 数据插入成功
+2017-07-24 12:43:31 [stdout] INFO: <200 https://www.guazi.com/hengshui/c98ad5214b36f42ax.htm>
+2017-07-24 12:43:31 [stdout] INFO: parse_detail
+2017-07-24 12:43:31 [stdout] INFO: 数据插入成功
+2017-07-24 12:43:34 [stdout] INFO: <200 https://www.guazi.com/hengshui/f76f6671a54cfc34x.htm>
+2017-07-24 12:43:34 [stdout] INFO: parse_detail
+2017-07-24 12:43:34 [stdout] INFO: 数据插入成功
+2017-07-24 12:43:39 [stdout] INFO: <200 https://www.guazi.com/hengshui/94153c19c8b65af9x.htm>
+2017-07-24 12:43:39 [stdout] INFO: parse_detail
+2017-07-24 12:43:39 [stdout] INFO: 数据插入成功
+2017-07-24 12:43:43 [stdout] INFO: <200 https://www.guazi.com/hengshui/bd637e69c522f11dx.htm>
+2017-07-24 12:43:43 [stdout] INFO: parse_detail
+2017-07-24 12:43:43 [stdout] INFO: 数据插入成功
+2017-07-24 12:43:47 [stdout] INFO: <200 https://www.guazi.com/hengshui/05d17445a57015d9x.htm>
+2017-07-24 12:43:47 [stdout] INFO: parse_detail
+2017-07-24 12:43:47 [stdout] INFO: 数据插入成功
+2017-07-24 12:43:51 [stdout] INFO: <200 https://www.guazi.com/hengshui/29a519be35ae47f1x.htm>
+2017-07-24 12:43:51 [stdout] INFO: parse_detail
+2017-07-24 12:43:51 [stdout] INFO: 数据插入成功
+2017-07-24 12:43:56 [stdout] INFO: <200 https://www.guazi.com/hengshui/ad88731133865f44x.htm>
+2017-07-24 12:43:56 [stdout] INFO: parse_detail
+2017-07-24 12:43:56 [stdout] INFO: 数据插入成功
