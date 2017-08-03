@@ -1,0 +1,44 @@
+2017-08-02 15:24:03 [scrapy.utils.log] INFO: Scrapy 1.4.0 started (bot: zhongchou)
+2017-08-02 15:24:03 [scrapy.utils.log] INFO: Overridden settings: {'BOT_NAME': 'zhongchou', 'DOWNLOAD_DELAY': 3.14, 'LOG_ENABLED': False, 'LOG_FILE': 'zhougchou.log', 'LOG_LEVEL': 'INFO', 'LOG_STDOUT': True, 'NEWSPIDER_MODULE': 'zhongchou.spiders', 'REDIRECT_ENABLED': False, 'SPIDER_MODULES': ['zhongchou.spiders']}
+2017-08-02 15:24:03 [stdout] INFO: Jd
+2017-08-02 15:24:03 [stdout] INFO: kick
+2017-08-02 15:24:03 [stdout] INFO: zhongchouwang
+2017-08-02 15:37:23 [scrapy.utils.log] INFO: Scrapy 1.4.0 started (bot: zhongchou)
+2017-08-02 15:37:23 [scrapy.utils.log] INFO: Overridden settings: {'BOT_NAME': 'zhongchou', 'DOWNLOAD_DELAY': 3.14, 'LOG_ENABLED': False, 'LOG_FILE': 'zhougchou.log', 'LOG_LEVEL': 'INFO', 'LOG_STDOUT': True, 'NEWSPIDER_MODULE': 'zhongchou.spiders', 'REDIRECT_ENABLED': False, 'SPIDER_MODULES': ['zhongchou.spiders']}
+2017-08-02 15:37:23 [stdout] INFO: Jd
+2017-08-02 15:37:23 [stdout] INFO: kick
+2017-08-02 15:37:23 [stdout] INFO: zhongchouwang
+2017-08-02 15:37:50 [scrapy.utils.log] INFO: Scrapy 1.4.0 started (bot: zhongchou)
+2017-08-02 15:37:50 [scrapy.utils.log] INFO: Overridden settings: {'BOT_NAME': 'zhongchou', 'DOWNLOAD_DELAY': 3.14, 'LOG_ENABLED': False, 'LOG_FILE': 'zhougchou.log', 'LOG_LEVEL': 'INFO', 'LOG_STDOUT': True, 'NEWSPIDER_MODULE': 'zhongchou.spiders', 'REDIRECT_ENABLED': False, 'SPIDER_MODULES': ['zhongchou.spiders']}
+2017-08-02 15:37:50 [stdout] INFO: Jd
+2017-08-02 15:37:50 [stdout] INFO: kick
+2017-08-02 15:37:50 [stdout] INFO: zhongchouwang
+2017-08-02 15:39:18 [scrapy.utils.log] INFO: Scrapy 1.4.0 started (bot: zhongchou)
+2017-08-02 15:39:18 [scrapy.utils.log] INFO: Overridden settings: {'BOT_NAME': 'zhongchou', 'DOWNLOAD_DELAY': 3.14, 'LOG_ENABLED': False, 'LOG_FILE': 'zhougchou.log', 'LOG_LEVEL': 'INFO', 'LOG_STDOUT': True, 'NEWSPIDER_MODULE': 'zhongchou.spiders', 'REDIRECT_ENABLED': False, 'SPIDER_MODULES': ['zhongchou.spiders']}
+2017-08-02 15:39:18 [stdout] INFO: Jd
+2017-08-02 15:39:18 [stdout] INFO: kick
+2017-08-02 15:39:18 [stdout] INFO: zhongchouwang
+2017-08-02 15:39:27 [scrapy.utils.log] INFO: Scrapy 1.4.0 started (bot: zhongchou)
+2017-08-02 15:39:27 [scrapy.utils.log] INFO: Overridden settings: {'BOT_NAME': 'zhongchou', 'DOWNLOAD_DELAY': 3.14, 'LOG_ENABLED': False, 'LOG_FILE': 'zhougchou.log', 'LOG_LEVEL': 'INFO', 'LOG_STDOUT': True, 'NEWSPIDER_MODULE': 'zhongchou.spiders', 'REDIRECT_ENABLED': False, 'SPIDER_MODULES': ['zhongchou.spiders']}
+2017-08-02 15:39:27 [stdout] INFO: Jd
+2017-08-02 15:39:27 [stdout] INFO: kick
+2017-08-02 15:39:27 [stdout] INFO: zhongchouwang
+2017-08-02 15:45:50 [scrapy.utils.log] INFO: Scrapy 1.4.0 started (bot: zhongchou)
+2017-08-02 15:45:50 [scrapy.utils.log] INFO: Overridden settings: {'BOT_NAME': 'zhongchou', 'DOWNLOAD_DELAY': 3.14, 'LOG_ENABLED': False, 'LOG_FILE': 'zhougchou.log', 'LOG_LEVEL': 'INFO', 'LOG_STDOUT': True, 'NEWSPIDER_MODULE': 'zhongchou.spiders', 'REDIRECT_ENABLED': False, 'SPIDER_MODULES': ['zhongchou.spiders']}
+2017-08-02 15:45:50 [stdout] INFO: Jd
+2017-08-02 15:45:50 [stdout] INFO: kick
+2017-08-02 15:45:50 [stdout] INFO: zhongchouwang
+2017-08-02 15:46:24 [scrapy.utils.log] INFO: Scrapy 1.4.0 started (bot: zhongchou)
+2017-08-02 15:46:24 [scrapy.utils.log] INFO: Overridden settings: {'BOT_NAME': 'zhongchou', 'DOWNLOAD_DELAY': 3.14, 'LOG_ENABLED': False, 'LOG_FILE': 'zhougchou.log', 'LOG_LEVEL': 'INFO', 'LOG_STDOUT': True, 'NEWSPIDER_MODULE': 'zhongchou.spiders', 'REDIRECT_ENABLED': False, 'SPIDER_MODULES': ['zhongchou.spiders']}
+2017-08-02 15:46:24 [stdout] INFO: Jd
+2017-08-02 15:46:24 [stdout] INFO: kick
+2017-08-02 15:46:24 [stdout] INFO: zhongchouwang
+2017-08-02 15:49:17 [scrapy.utils.log] INFO: Scrapy 1.4.0 started (bot: zhongchou)
+2017-08-02 15:49:17 [scrapy.utils.log] INFO: Overridden settings: {'BOT_NAME': 'zhongchou', 'DOWNLOAD_DELAY': 3.14, 'LOG_ENABLED': False, 'LOG_FILE': 'zhougchou.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'zhongchou.spiders', 'REDIRECT_ENABLED': False, 'SPIDER_MODULES': ['zhongchou.spiders']}
+2017-08-02 15:52:16 [scrapy.utils.log] INFO: Scrapy 1.4.0 started (bot: zhongchou)
+2017-08-02 15:52:16 [scrapy.utils.log] INFO: Overridden settings: {'BOT_NAME': 'zhongchou', 'DOWNLOAD_DELAY': 3.14, 'LOG_ENABLED': False, 'LOG_FILE': 'zhougchou.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'zhongchou.spiders', 'REDIRECT_ENABLED': False, 'SPIDER_MODULES': ['zhongchou.spiders']}
+2017-08-02 15:52:40 [scrapy.utils.log] INFO: Scrapy 1.4.0 started (bot: zhongchou)
+2017-08-02 15:52:40 [scrapy.utils.log] INFO: Overridden settings: {'BOT_NAME': 'zhongchou', 'DOWNLOAD_DELAY': 3.14, 'LOG_ENABLED': False, 'LOG_FILE': 'zhougchou.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'zhongchou.spiders', 'REDIRECT_ENABLED': False, 'SPIDER_MODULES': ['zhongchou.spiders']}
+2017-08-03 10:58:57 [py.warnings] WARNING: /usr/local/lib/python3.6/site-packages/pymysql/cursors.py:166: Warning: (1050, "Table '京东众筹' already exists")
+  result = self._query(query)
+

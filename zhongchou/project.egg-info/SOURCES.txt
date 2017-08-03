@@ -1,0 +1,15 @@
+setup.py
+project.egg-info/PKG-INFO
+project.egg-info/SOURCES.txt
+project.egg-info/dependency_links.txt
+project.egg-info/entry_points.txt
+project.egg-info/top_level.txt
+zhongchou/__init__.py
+zhongchou/items.py
+zhongchou/middlewares.py
+zhongchou/pipelines.py
+zhongchou/settings.py
+zhongchou/spiders/JdZhouchouSpider.py
+zhongchou/spiders/KickstarterSpider.py
+zhongchou/spiders/__init__.py
+zhongchou/spiders/zhongchouwangSpider.py
